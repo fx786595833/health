@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>爱生活，爱健康</title>
+	<link rel="stylesheet" href="../reset.css">
+	<style>
+	@font-face {
+		font-family: 'IcoMoon-Free';
+		src: url('../icon/Font/IcoMoon-Free.ttf?-b7qzp2') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	.icon {
+		font-family: 'IcoMoon-Free';
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		font-size: 25px;
+		line-height: 1;
+		
+		/* Enable Ligatures ================ */
+		-webkit-font-feature-settings: "liga";
+		-moz-font-feature-settings: "liga=1";
+		-moz-font-feature-settings: "liga";
+		-ms-font-feature-settings: "liga" 1;
+		-o-font-feature-settings: "liga";
+		font-feature-settings: "liga";
+
+		/* Better Font Rendering =========== */
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	.icon-pencil2:before {
+		content: "\e906";
+		margin: 0 10px;
+	}
+	.icon-file:before {
+		content: "\e922";
+		margin: 0 10px;
+	}
+	.icon-bin:before {
+		content: "\e9ac";
+		margin: 0 10px;
+	}
+	.icon-rate3:before {
+		content: "\e9d9";
+		margin: 0 10px;
+	}
+	/*body{
+		overflow: hidden;
+		background-image: url(img/bgc.jpg);
+		background-repeat: no-repeat;
+	}*/
+	nav{
+		color: rgb(42,159,225);
+		height: 50px;
+		background-color: rgb(239,244,250);
+	}
+	nav h2{
+		margin: 0;
+		margin-left: 20px;
+		line-height: 50px;
+	}
+	ul{
+		margin: 0;
+		list-style: none;
+	}
+	nav > div{
+		float: left;
+	}
+	.menu li{
+		float: left;
+	}
+	.menu li a{
+		display: block;
+		width: 120px;
+		text-align: center;
+		text-decoration: none;
+		line-height: 50px;
+		color: rgb(42,159,225);
+		font-weight: 600;
+	}
+	.menu li:first-child a{
+		margin-left: 150px;
+	}
+	.menu a:hover{
+		background-color: rgba(42,159,225,.3);
+		border-radius: 2px;
+	}
+	.wrap{
+		width: 1080px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.sidebar{
+		width: 300px;
+		float: left;
+	}
+	.sidebar ul{
+		margin-top: 70px;
+		padding: 0;
+	}
+	.sidebar a{
+		display: block;
+		text-decoration: none;
+		color: rgba(42,159,225,1);
+		margin-bottom: 20px;
+		width: 200px;
+		border-radius: 3px;
+		padding: 6px;
+	}
+	.sidebar a:hover{
+		color: orange;
+		background-color: rgba(42,159,225,1);
+	}
+	.content{
+		float: left;
+		width: 760px;
+		border-radius: 15px;
+		background-color: rgba(42,159,225,.2);
+		margin-top: 30px;
+		min-height: 600px;
+	}
+	form{
+		margin-top: 30px;
+		margin-left: 40px;
+	}
+	.data,.data2{
+		margin-bottom: 20px;
+	}
+	.data label,.data2 label{
+		display: inline-block;
+		width: 80px;
+		text-align: right;
+	}
+	.data input,.data select,.data textarea{
+		border:none;
+		border-radius: 5px;
+	}
+	form button{
+		margin-left: 90px;
+		padding: 4px 20px;
+		border:none;
+		background-color: rgba(42,159,225,1);
+		border-radius: 5px;
+		color: #FFF;
+	}
+	.icon-user:before {
+		content: "\e971";
+		margin: 0 10px;
+	}
+	</style>
+</head>
+<body>
+	<nav>
+		<div><h2>爱生活，爱健康</h2></div>
+		<div></div>
+		<ul class="menu">
+			<li><a href="../HealthUI/health.html">健康</a></li>
+			<li><a href="deliver.html">活动</a></li>
+			<li><a href="../suggestUI/deliverSuggest.html">建议</a></li>
+			<li><a href="../defaultSetting/basicSetting.html">设置</a></li>
+		</ul>
+	</nav>
+	<div class="wrap">
+		<div class="sidebar">
+			<ul>
+				<li><a href="deliver.html" class="icon icon-file">发布活动</a></li>
+				<li><a href="modifyActivity.html" class="icon icon-pencil2">修改活动</a></li>
+				<li><a href="deleteActivity.html" class="icon icon-bin">删除活动</a></li>
+				<li><a href="joinActivity.html" class="icon icon-rate3">参与活动</a></li>
+				<li><a href="myActivity.html" class="icon icon-user">我的活动</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<form action="http://localhost/project/loginPHP/deliver.php" method="post" enctype="multipart/form-data">
+				<div class="data">
+					<label for="">标题</label>
+					<input type="text" name="title">
+				</div>
+				<div class="data">
+					<label for="">作者</label>
+					<input type="text" name="writer">
+				</div>
+				<div class="data">
+					<label for="">摘要</label>
+					<textarea name="summary" id="" cols="30" rows="10" style="width:400px;height:100px;"></textarea>
+				</div>
+				<div class="data">
+					<label for="">封面</label>
+					<input type="file" name="file" accept="image/gif, image/jpeg">
+				</div>
+				<div class="data">
+					<label for="">正文</label>
+					<textarea name="content" id="" style="width:400px;height:200px;"></textarea>
+				</div>
+				<button>确定</button>
+			</form>
+		</div>
+	</div>
+    <script src="../jquery.js"></script>
+    <script src="../health.js"></script>
+    <script src="access.js"></script>
+</body>
+</html>

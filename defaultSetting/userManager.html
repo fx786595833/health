@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>爱生活，爱健康</title>
+	<link rel="stylesheet" href="../reset.css">
+	<style>
+	@font-face {
+		font-family: 'IcoMoon-Free';
+		src: url('../icon/Font/IcoMoon-Free.ttf?-b7qzp2') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	.icon {
+		font-family: 'IcoMoon-Free';
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		font-size: 25px;
+		line-height: 1;
+		
+		/* Enable Ligatures ================ */
+		-webkit-font-feature-settings: "liga";
+		-moz-font-feature-settings: "liga=1";
+		-moz-font-feature-settings: "liga";
+		-ms-font-feature-settings: "liga" 1;
+		-o-font-feature-settings: "liga";
+		font-feature-settings: "liga";
+
+		/* Better Font Rendering =========== */
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	.icon-gear:before {
+		content: "\e994";
+		margin: 0 10px;
+	}
+	.icon-user:before {
+		content: "\e971";
+		margin: 0 10px;
+	}
+	.icon-android:before {
+		content: "\eac1";
+		margin: 0 10px;
+	}
+	.icon-key:before {
+		content: "\e98d";
+		margin: 0 10px;
+	}
+	.icon-board:before {
+		content: "\e9b8";
+		margin: 0 10px;
+	}
+	/*body{
+		overflow: hidden;
+		background-image: url(img/bgc.jpg);
+		background-repeat: no-repeat;
+	}*/
+	nav{
+		color: rgb(42,159,225);
+		height: 50px;
+		background-color: rgb(239,244,250);
+	}
+	nav h2{
+		margin: 0;
+		margin-left: 20px;
+		line-height: 50px;
+	}
+	ul{
+		margin: 0;
+		list-style: none;
+	}
+	nav > div{
+		float: left;
+	}
+	.menu li{
+		float: left;
+	}
+	.menu li a{
+		display: block;
+		width: 120px;
+		text-align: center;
+		text-decoration: none;
+		line-height: 50px;
+		color: rgb(42,159,225);
+		font-weight: 600;
+	}
+	.menu li:first-child a{
+		margin-left: 150px;
+	}
+	.menu a:hover{
+		background-color: rgba(42,159,225,.3);
+		border-radius: 2px;
+	}
+	.wrap{
+		width: 1080px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.sidebar{
+		width: 300px;
+		float: left;
+	}
+	.sidebar ul{
+		margin-top: 70px;
+		padding: 0;
+	}
+	.sidebar a{
+		display: block;
+		text-decoration: none;
+		color: rgba(42,159,225,1);
+		margin-bottom: 20px;
+		width: 200px;
+		border-radius: 3px;
+		padding: 6px;
+	}
+	.sidebar a:hover{
+		color: orange;
+		background-color: rgba(42,159,225,1);
+	}
+	.content{
+		float: left;
+		width: 760px;
+		border-radius: 15px;
+		background-color: rgba(42,159,225,.2);
+		margin-top: 30px;
+		min-height: 600px;
+	}
+	.content > p{
+		margin-top: 30px;
+		margin-left: 40px;
+		font-size: 25px;
+		color: rgba(42,159,225,1);
+	}
+	.data{
+		width: 90%;
+		margin: 0 auto 50px;
+		overflow: hidden;
+		position: relative;
+	}
+	.data img{
+		width: 80px;
+		height: 80px;
+		border-radius: 50%;
+		float: left;
+	}
+	.data p:first-of-type{
+		width: 300px;
+		float: left;
+		margin-left: 40px;
+		margin-right: 20px;
+	}
+	.data p:last-of-type{
+		width: 80px;
+		float: left;
+		color: rgba(42,159,225,1);
+	}
+	button{
+		color: #FFF;
+		background-color: rgba(42,159,225,1);
+		border-radius: 5px;
+		border:none;
+		padding: 5px 20px;
+		margin-top: 15px;
+		margin-left: 30px;
+	}
+	.more{
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 50px;
+		background-color: rgba(42,159,225,1);
+		color: #FFF;
+		border-radius: 5px;
+		padding: 7px 0;
+		cursor: pointer;
+	}
+	</style>
+</head>
+<body>
+	<nav>
+		<div><h2>爱生活，爱健康</h2></div>
+		<div></div>
+		<ul class="menu">
+			<li><a href="../HealthUI/health.html">健康</a></li>
+			<li><a href="../activityUI/deliver.html">活动</a></li>
+			<li><a href="../suggestUI/deliverSuggest.html">建议</a></li>
+			<li><a href="basicSetting.html">设置</a></li>
+		</ul>
+	</nav>
+	<div class="wrap">
+		<div class="sidebar">
+			<ul>
+				<li><a href="basicSetting.html" class="icon icon-gear">基本设置</a></li>
+				<li><a href="headPic.html" class="icon icon-user">头像设置</a></li>
+				<li><a href="userManager.html" class="icon icon-android">用户管理</a></li>
+				<li><a href="power.html" class="icon icon-key">权限管理</a></li>
+				<li><a href="authManager.html" class="icon icon-board">认证管理</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<p>用户管理</p>
+			<div class="more">更多用户 >></div>
+		</div>
+	</div>
+    <script src="../jquery.js"></script>
+    <script src="../health.js"></script>
+    <script src="user.js"></script>
+</body>
+</html>

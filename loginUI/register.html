@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<link rel="stylesheet" href="../reset.css">
+	<link rel="stylesheet" href="login2.css">
+</head>
+<body>
+	<div class="icon"><h2>爱生活，爱健康</h2></div>
+	<div class="wrap">		
+		<div class="image fudong"><img src="../img/sport.jpg" alt="生命在于运动"></div>
+		<div class="login fudong">
+			<div>注册帐号</div>
+			<form action="http://localhost/project/loginPHP/register.php" method="post">
+				<div class="register">
+					<label for="">昵称</label>
+					<input type="text" name="nickname">
+				</div>
+				<div class="register">
+					<label for="">帐号</label>
+					<input type="text" name="id">
+				</div>
+				<div class="register">
+					<label for="">密码</label>
+					<input type="password" name="psw">
+				</div>
+				<div class="register">
+					<label for="">确认密码</label>
+					<input type="password" name="configpsw">
+				</div>
+				<div class="register2">
+					<label for="">性别</label>
+					<input type="radio" name="gender" value="male">男</input>
+					<input type="radio" name="gender" value="female">女</input>
+				</div>
+				<input type="submit" value="提交注册" class="deliver">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

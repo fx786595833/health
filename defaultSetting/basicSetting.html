@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>爱生活，爱健康</title>
+	<link rel="stylesheet" href="../reset.css">
+	<style>
+	@font-face {
+		font-family: 'IcoMoon-Free';
+		src: url('../icon/Font/IcoMoon-Free.ttf?-b7qzp2') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	.icon {
+		font-family: 'IcoMoon-Free';
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		font-size: 25px;
+		line-height: 1;
+		
+		/* Enable Ligatures ================ */
+		-webkit-font-feature-settings: "liga";
+		-moz-font-feature-settings: "liga=1";
+		-moz-font-feature-settings: "liga";
+		-ms-font-feature-settings: "liga" 1;
+		-o-font-feature-settings: "liga";
+		font-feature-settings: "liga";
+
+		/* Better Font Rendering =========== */
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	.icon-gear:before {
+		content: "\e994";
+		margin: 0 10px;
+	}
+	.icon-user:before {
+		content: "\e971";
+		margin: 0 10px;
+	}
+	.icon-android:before {
+		content: "\eac1";
+		margin: 0 10px;
+	}
+	.icon-key:before {
+		content: "\e98d";
+		margin: 0 10px;
+	}
+	.icon-board:before {
+		content: "\e9b8";
+		margin: 0 10px;
+	}
+	/*body{
+		overflow: hidden;
+		background-image: url(img/bgc.jpg);
+		background-repeat: no-repeat;
+	}*/
+	nav{
+		color: rgb(42,159,225);
+		height: 50px;
+		background-color: rgb(239,244,250);
+	}
+	nav h2{
+		margin: 0;
+		margin-left: 20px;
+		line-height: 50px;
+	}
+	ul{
+		margin: 0;
+		list-style: none;
+	}
+	nav > div{
+		float: left;
+	}
+	.menu li{
+		float: left;
+	}
+	.menu li a{
+		display: block;
+		width: 120px;
+		text-align: center;
+		text-decoration: none;
+		line-height: 50px;
+		color: rgb(42,159,225);
+		font-weight: 600;
+	}
+	.menu li:first-child a{
+		margin-left: 150px;
+	}
+	.menu a:hover{
+		background-color: rgba(42,159,225,.3);
+		border-radius: 2px;
+	}
+	.wrap{
+		width: 1080px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.sidebar{
+		width: 300px;
+		float: left;
+	}
+	.sidebar ul{
+		margin-top: 70px;
+		padding: 0;
+	}
+	.sidebar a{
+		display: block;
+		text-decoration: none;
+		color: rgba(42,159,225,1);
+		margin-bottom: 20px;
+		width: 200px;
+		border-radius: 3px;
+		padding: 6px;
+	}
+	.sidebar a:hover{
+		color: orange;
+		background-color: rgba(42,159,225,1);
+	}
+	.content{
+		float: left;
+		width: 760px;
+		border-radius: 15px;
+		background-color: rgba(42,159,225,.2);
+		margin-top: 30px;
+		min-height: 600px;
+	}
+	form{
+		margin-top: 30px;
+		margin-left: 40px;
+	}
+	.data,.data2{
+		margin-bottom: 20px;
+	}
+	.data label,.data2 label{
+		display: inline-block;
+		width: 80px;
+		text-align: right;
+	}
+	.data input,.data select,.data textarea{
+		border:none;
+		border-radius: 5px;
+	}
+	form button{
+		margin-left: 90px;
+		padding: 4px 20px;
+		border:none;
+		background-color: rgba(42,159,225,1);
+		border-radius: 5px;
+		color: #FFF;
+	}
+	</style>
+</head>
+<body>
+	<nav>
+		<div><h2>爱生活，爱健康</h2></div>
+		<div></div>
+		<ul class="menu">
+			<li><a href="../HealthUI/health.html">健康</a></li>
+			<li><a href="../activityUI/deliver.html">活动</a></li>
+			<li><a href="../suggestUI/deliverSuggest.html">建议</a></li>
+			<li><a href="basicSetting.html">设置</a></li>
+		</ul>
+	</nav>
+	<div class="wrap">
+		<div class="sidebar">
+			<ul>
+				<li><a href="basicSetting.html" class="icon icon-gear">基本设置</a></li>
+				<li><a href="headPic.html" class="icon icon-user">头像设置</a></li>
+				<li><a href="userManager.html" class="icon icon-android">用户管理</a></li>
+				<li><a href="power.html" class="icon icon-key">权限管理</a></li>
+				<li><a href="authManager.html" class="icon icon-board">认证管理</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<form action="http://localhost/project/loginPHP/setBasic.php" method="get">
+				<div class="data">
+					<label for="">昵称</label>
+					<input type="text" name="nickname">
+				</div>
+				<div class="data2">
+					<label for="">性别</label>
+					<input type="radio" name="sex" value="男" id="0">男
+					<input type="radio" name="sex" value="女" id="1">女
+				</div>
+				<div class="data">
+					<label for="">生日</label>
+					<input type="text" name="year">
+					<select class="month" name="month">
+						<option value="01">1</option>
+						<option value="02">2</option>
+						<option value="03">3</option>
+						<option value="04">4</option>
+						<option value="05">5</option>
+						<option value="06">6</option>
+						<option value="07">7</option>
+						<option value="08">8</option>
+						<option value="09">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+					</select>
+					<select class="day" name="day">
+						<option value="01">1</option>
+						<option value="02">2</option>
+						<option value="03">3</option>
+						<option value="04">4</option>
+						<option value="05">5</option>
+						<option value="06">6</option>
+						<option value="07">7</option>
+						<option value="08">8</option>
+						<option value="09">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+						<option value="21">21</option>
+						<option value="22">22</option>
+						<option value="23">23</option>
+						<option value="24">24</option>
+						<option value="25">25</option>
+						<option value="26">26</option>
+						<option value="27">27</option>
+						<option value="28">28</option>
+						<option value="29">29</option>
+						<option value="30">30</option>
+					</select>
+				</div>
+				<div class="data">
+					<label for="">所在地</label>
+					<select name="location" id="location">
+						<option value="北京">北京</option>
+						<option value="重庆">重庆</option>
+						<option value="上海">上海</option>
+						<option value="天津">天津</option>
+						<option value="黑龙江">黑龙江</option>
+						<option value="吉林">吉林</option>
+						<option value="辽宁">辽宁</option>
+						<option value="江苏">江苏</option>
+						<option value="山东">山东</option>
+						<option value="安徽">安徽</option>
+						<option value="河北">河北</option>
+						<option value="河南">河南</option>
+						<option value="湖北">湖北</option>
+						<option value="湖南">湖南</option>
+						<option value="江西">江西</option>
+						<option value="山西">山西</option>
+						<option value="陕西">陕西</option>
+						<option value="四川">四川</option>
+						<option value="青海">青海</option>
+						<option value="海南">海南</option>
+						<option value="广东">广东</option>
+						<option value="贵州">贵州</option>
+						<option value="浙江">浙江</option>
+						<option value="福建">福建</option>
+						<option value="台湾">台湾</option>
+						<option value="甘肃">甘肃</option>
+						<option value="云南">云南</option>
+						<option value="内蒙古">内蒙古</option>
+						<option value="宁夏">宁夏</option>
+						<option value="新疆">新疆</option>
+						<option value="西藏">西藏</option>
+						<option value="广西">广西</option>
+						<option value="香港">香港</option>
+						<option value="澳门">澳门</option>
+					</select>
+				</div>
+				<div class="data">
+					<label for="">角色</label>
+					<input type="text" disabled="true" name="role">
+				</div>
+				<div class="data">
+					<label for="">自我简介</label>
+					<textarea name="signature" id="signature" cols="30" rows="10" style="width:400px;height:100px;"></textarea>
+				</div>
+				<button>保存</button>
+			</form>
+		</div>
+	</div>
+    <script src="../jquery.js"></script>
+    <script src="../health.js"></script>
+    <script src="access.js"></script>
+    <script src="basic.js"></script>
+</body>
+</html>

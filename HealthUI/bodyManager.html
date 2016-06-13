@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>爱生活，爱健康</title>
+	<link rel="stylesheet" href="../reset.css">
+	<style>
+	@font-face {
+		font-family: 'IcoMoon-Free';
+		src: url('../icon/Font/IcoMoon-Free.ttf?-b7qzp2') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	.icon {
+		font-family: 'IcoMoon-Free';
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		font-size: 25px;
+		line-height: 1;
+		
+		/* Enable Ligatures ================ */
+		-webkit-font-feature-settings: "liga";
+		-moz-font-feature-settings: "liga=1";
+		-moz-font-feature-settings: "liga";
+		-ms-font-feature-settings: "liga" 1;
+		-o-font-feature-settings: "liga";
+		font-feature-settings: "liga";
+
+		/* Better Font Rendering =========== */
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	.icon-accessibility:before {
+		content: "\e9b2";
+		margin: 0 10px;
+	}
+	.icon-user:before {
+		content: "\e971";
+		margin: 0 10px;
+	}
+	.icon-alarm:before {
+		content: "\e950";
+		margin: 0 10px;
+	}
+	.icon-mobile2:before {
+		content: "\e959";
+		margin: 0 10px;
+	}
+	.icon-wink2:after {
+		content: "\e9e8";
+		margin: 0 10px;
+		color: orange;
+	}
+	.icon-sad:before {
+		content: "\e9e5";
+		margin: 0 10px;
+	}
+	nav{
+		color: rgb(42,159,225);
+		height: 50px;
+		background-color: rgb(239,244,250);
+	}
+	nav h2{
+		margin: 0;
+		margin-left: 20px;
+		line-height: 50px;
+	}
+	ul{
+		margin: 0;
+		list-style: none;
+	}
+	nav > div{
+		float: left;
+	}
+	.menu li{
+		float: left;
+	}
+	.menu li a{
+		display: block;
+		width: 120px;
+		text-align: center;
+		text-decoration: none;
+		line-height: 50px;
+		color: rgb(42,159,225);
+		font-weight: 600;
+	}
+	.menu li:first-child a{
+		margin-left: 150px;
+	}
+	.menu a:hover{
+		background-color: rgba(42,159,225,.3);
+		border-radius: 2px;
+	}
+	.wrap{
+		width: 1080px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.sidebar{
+		width: 300px;
+		float: left;
+	}
+	.sidebar ul{
+		margin-top: 70px;
+		padding: 0;
+	}
+	.sidebar a{
+		display: block;
+		text-decoration: none;
+		color: rgba(42,159,225,1);
+		margin-bottom: 20px;
+		width: 200px;
+		border-radius: 3px;
+		padding: 6px;
+	}
+	.sidebar a:hover{
+		color: orange;
+		background-color: rgba(42,159,225,1);
+	}
+	.content{
+		float: left;
+		width: 760px;
+		border-radius: 15px;
+		background-color: rgba(42,159,225,.2);
+		margin-top: 30px;
+		color: rgba(42,159,225,1);
+		min-height: 600px;
+	}
+	.content img{
+		width: 760px;
+		border-radius: 5px;
+	}
+	.data{
+		margin: 10px 0;
+	}
+	.data label{
+		display: inline-block;
+		width: 80px;
+		text-align: right;	
+	}
+	.data input{
+		border-radius: 5px;
+		border:none;
+		width: 50px;
+		margin-left: 20px;
+	}
+	.result{
+		position: relative;
+		left: 300px;
+		top: -100px;
+	}
+	button{
+		position: relative;
+		border:none;
+		border-radius: 5px;
+		color: #FFF;
+		background-color: rgba(42,159,225,1);
+		padding: 5px 30px;
+		margin-left: 580px;
+		top:-35px;
+	}
+	</style>
+</head>
+<body>
+	<nav>
+		<div><h2>爱生活，爱健康</h2></div>
+		<div></div>
+		<ul class="menu">
+			<li><a href="health.html">健康</a></li>
+			<li><a href="../activityUI/deliver.html">活动</a></li>
+			<li><a href="../suggestUI/deliverSuggest.html">建议</a></li>
+			<li><a href="../defaultSetting/basicSetting.html">设置</a></li>
+		</ul>
+	</nav>
+	<div class="wrap">
+		<div class="sidebar">
+			<ul>
+				<li><a href="health.html" class="icon icon-accessibility">我的运动</a></li>
+				<li><a href="bodyManager.html" class="icon icon-user">身体管理</a></li>
+				<li><a href="sleepAnalysis.html" class="icon icon-alarm">睡眠分析</a></li>
+				<li><a href="handler.html" class="icon icon-mobile2">手持设备</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<img src="../img/1.jpg" alt="">
+			<form action="http://localhost/project/loginPHP/bodyUpdate.php" method="post">
+			<div class="data">
+				<label for="">身高</label>
+				<input type="text" name="height">
+				<label for="">厘米</label>
+			</div>
+			<div class="data">
+				<label for="">体重</label>
+				<input type="text" name="weight">
+				<label for="">公斤</label>
+			</div>
+			<div class="data">
+				<label for="">心率</label>
+				<input type="text" name="rate">
+				<label for="">次/每分</label>
+			</div>
+			<div class="data">
+				<label for="">血压：高压</label>
+				<input type="text" name="high">
+				<label for="">mmHg</label>
+				<label for="">低压</label>
+				<input type="text" name="low">
+				<label for="">mmHg</label>
+			</div>
+			<button>保存</button>
+			</form>
+		</div>
+	</div>
+    <script src="../jquery.js"></script>
+    <script src="../health.js"></script>
+    <script src="getData.js"></script>
+</body>
+</html>
