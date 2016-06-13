@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="223f7513-a1e1-4276-8d55-d69f4d03897e" name="Default" comment="" />
+    <list default="true" id="223f7513-a1e1-4276-8d55-d69f4d03897e" name="Default" comment="测试">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loginUI/login.html" afterPath="$PROJECT_DIR$/loginUI/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="项目.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -30,33 +34,41 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="391">
               <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myActivity.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loginPHP/myActivity.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.1875" vertical-offset="0" max-vertical-offset="368">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
-                <marker date="1449378523740" expanded="true" signature="89:272" placeholder="select cover..activity..." />
-                <marker date="1449378523740" expanded="true" signature="177:221" placeholder="select aid f..activity_user..." />
-                <marker date="1449378523740" expanded="true" signature="177:240" placeholder="select u.aid..activity_user..." />
+                <marker date="1465805460718" expanded="true" signature="98:207" placeholder="select cover..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myActivity.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/loginPHP/myActivity.php">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/loginUI/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40925267" vertical-offset="0" max-vertical-offset="562">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <marker date="1449379402592" expanded="true" signature="98:207" placeholder="select cover..." />
-              </folding>
+            <state vertical-scroll-proportion="0.33333334" vertical-offset="660" max-vertical-offset="1472">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HealthUI/health.html" />
         <option value="$PROJECT_DIR$/HealthUI/bodyManager.html" />
         <option value="$PROJECT_DIR$/HealthUI/sleepAnalysis.html" />
         <option value="$PROJECT_DIR$/HealthUI/handler.html" />
@@ -107,6 +119,7 @@
         <option value="$PROJECT_DIR$/loginPHP/join.php" />
         <option value="$PROJECT_DIR$/loginPHP/joinActivity.php" />
         <option value="$PROJECT_DIR$/loginPHP/myActivity.php" />
+        <option value="$PROJECT_DIR$/loginUI/login.html" />
       </list>
     </option>
   </component>
@@ -120,7 +133,7 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -143,7 +156,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -164,6 +176,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,7 +184,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -197,9 +210,6 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -207,6 +217,9 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -226,28 +239,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19472913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19472913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -265,6 +279,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -560,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginUI/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1449">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loginPHP/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48" vertical-offset="0" max-vertical-offset="690">
@@ -620,21 +629,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="391">
           <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <marker date="1449378523740" expanded="true" signature="89:272" placeholder="select cover..activity..." />
-            <marker date="1449378523740" expanded="true" signature="177:221" placeholder="select aid f..activity_user..." />
-            <marker date="1449378523740" expanded="true" signature="177:240" placeholder="select u.aid..activity_user..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loginPHP/myActivity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40925267" vertical-offset="0" max-vertical-offset="562">
+        <state vertical-scroll-proportion="-7.1875" vertical-offset="0" max-vertical-offset="368">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <marker date="1449379402592" expanded="true" signature="98:207" placeholder="select cover..." />
+            <marker date="1465805460718" expanded="true" signature="98:207" placeholder="select cover..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginUI/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="660" max-vertical-offset="1472">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
