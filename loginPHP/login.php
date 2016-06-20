@@ -16,7 +16,7 @@
             header("location:../HealthUI/health.html");
         }
         else
-            header("location:../loginUI/login.html");
+            header("location:../loginUI/login.html?v=0");
     }
     else{
         header("location:../HealthUI/health.html");

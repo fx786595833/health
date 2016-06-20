@@ -5,8 +5,17 @@
 	<title>注册</title>
 	<link rel="stylesheet" href="../reset.css">
 	<link rel="stylesheet" href="login2.css">
+    <script>
+        function onloads() {
+            url = window.location.href;
+            temp = url.split("=");
+            if (temp[1] != null && temp[1] == 0) {
+                alert("用户已存在");
+            }
+        }
+    </script>
 </head>
-<body>
+<body onload="onloads()">
 	<div class="icon"><h2>爱生活，爱健康</h2></div>
 	<div class="wrap">		
 		<div class="image fudong"><img src="../img/sport.jpg" alt="生命在于运动"></div>
