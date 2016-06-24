@@ -12,11 +12,8 @@
     <script src="js/tms-0.3.js"></script>
     <script src="js/tms_presets.js"></script>
     <script src="js/cufon-yui.js"></script>
-    <!--<script src="js/Asap_400.font.js"></script>-->
-    <!--<script src="js/Coolvetica_400.font.js"></script>-->
-    <!--<script src="js/Kozuka_M_500.font.js"></script>-->
-    <!--<script src="js/cufon-replace.js"></script>-->
     <script src="js/FF-cash.js"></script>
+    <script src="js/cookie.js"></script>
     <script>
         $(window).load(function(){
             $('.slider')._TMS({
@@ -44,6 +41,7 @@
         <nav>
             <div class="social-icons">
                 <a href="login.html" class="login"></a>
+                <a href="setting/setting.html" style="display: none"></a>
             </div>
             <ul class="menu">
                 <li class="current"><a href="index.html">主页</a></li>
@@ -51,6 +49,13 @@
                 <li><a href="activity/activity.html">活动广场</a></li>
                 <li><a href="advice/advice.html">专家咨询</a></li>
             </ul>
+            <script>
+                var status = getCookie("login");
+                $(".menu li").css("display","none");
+                if(status != null){
+                    $(".menu li").css("display","block");
+                }
+            </script>
         </nav>
     </header>
     <section id="content">
@@ -140,6 +145,7 @@
     <footer>
         <p>© 2016 南京大学软件学院&nbsp;&nbsp;&nbsp;<a href="http://software.nju.edu.cn">联系我们</a></p>
     </footer>
+    <script src="js/loginStatus.js"></script>
 </div>
 </body>
 </html>

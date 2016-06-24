@@ -9,6 +9,7 @@
 
     <link type="text/css" rel="stylesheet" href="../css/sidebardemo.css" />
     <link type="text/css" rel="stylesheet" href="../../dist/css/jquery.mmenu.all.css" />
+    <link type="text/css" rel="stylesheet" href="../css/health.css">
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.js"></script>
     <script type="text/javascript" src="../../dist/js/jquery.mmenu.all.min.js"></script>
@@ -25,16 +26,52 @@
         <p>健康管家</p>
     </div>
     <div class="content">
-        <div style="display: block">
-            我的运动
+        <div id="health-main" style="display: block">
+            <div>
+                <h2>健康概况</h2>
+            </div>
+            <div class="picture">
+                <div class="distance"></div>
+                <div class="sleep"></div>
+                <div class="bmi"></div>
+            </div>
         </div>
-        <div style="display: none">
-            身体管理
+        <div id="body-condition" style="display: none">
+            <form id="body-condition-list">
+                <table border="0px">
+                    <tr>
+                        <td>身高</td>
+                        <td><input id="height" readonly="readonly" placeholder="e.g. 180">cm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>体重</td>
+                        <td><input id="weight" readonly="readonly" placeholder="e.g. 60">kg&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>心率</td>
+                        <td><input id="heart-rate" readonly="readonly" placeholder="e.g. 100">次/min&nbsp;&nbsp;</td>
+                    </tr>
+                    <tr><td colspan="2">血压</td></tr>
+                    <tr>
+                        <td>高压</td>
+                        <td><input id="high-pressure" readonly="readonly" placeholder="血压最高值">mmHg&nbsp;&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>低压</td>
+                        <td><input id="low-pressure" readonly="readonly" placeholder="血压最低值">mmHg&nbsp;&nbsp;</td>
+                    </tr>
+                </table>
+                <p>
+                    <input type="button" id="ensure-save" onclick="" style="display: none" value="保存"></form>
+                    <input type="reset" id="reset-mod" onclick="" style="display: none" value="撤销"></form>
+                </p>
+                <input type="button" id="mod-btn" onclick="" style="display: block" value="修改">
+            </form>
         </div>
-        <div style="display: none">
+        <div id="sleep-analysis" style="display: none">
             睡眠分析
         </div>
-        <div style="display: none">
+        <div id="device" style="display: none">
             手持设备
         </div>
     </div>
@@ -54,6 +91,7 @@
                     $(".header p").html("我的运动");
                 } else if($(this).index() == 1){
                     $(".header p").html("身体管理");
+                    $("#body-condition").css("display","block");
                 } else if($(this).index() == 2){
                     $(".header p").html("睡眠分析");
                 } else{

@@ -13,6 +13,7 @@
             setcookie('user_id',$name,time()+3600);
             setcookie('password',$psw,time()+3600);
             setcookie('nickname',$nickname,time()+3600);
+            setcookie("login","true",time()+3600);
             header("location:../newUI/health/health.html");
         }
         else

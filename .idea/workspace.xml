@@ -2,190 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="223f7513-a1e1-4276-8d55-d69f4d03897e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/images/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/images/bgc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/images/health.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/images/login.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/images/login.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/images/sport.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/images/swim.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_imp/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_imp/_dividers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_imp/_import.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_imp/_inset_lists.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_imp/_listviews.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_imp/_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_imp/_mixins_colors.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_imp/_mixins_general.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_imp/_mixins_sizing.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_imp/_navbars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_imp/_panels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_imp/_spacers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_imp/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_imp/_vertical.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/activity/activityContent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/advice/advice.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/advice/adviceContent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/health/getData.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/js/gnmenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/css/health.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/health/health.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/health/healthContent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jquery,mmenu.addon-template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/css/jquery.mmenu.all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/js/jquery.mmenu.all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/js/jquery.mmenu.all.min.umd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wrappers/angular/jquery.mmenu.angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/wrappers/angular/jquery.mmenu.angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/autoheight/jquery.mmenu.autoheight.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/autoheight/jquery.mmenu.autoheight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/autoheight/jquery.mmenu.autoheight.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/autoheight/jquery.mmenu.autoheight.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/backbutton/jquery.mmenu.backbutton.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/backbutton/jquery.mmenu.backbutton.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/extensions/borderstyle/jquery.mmenu.borderstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/extensions/borderstyle/jquery.mmenu.borderstyle.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/columns/jquery.mmenu.columns.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/columns/jquery.mmenu.columns.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/columns/jquery.mmenu.columns.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/columns/jquery.mmenu.columns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/counters/jquery.mmenu.counters.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/counters/jquery.mmenu.counters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/counters/jquery.mmenu.counters.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/counters/jquery.mmenu.counters.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/css/jquery.mmenu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/3rdparty/addons/currentitem/jquery.mmenu.currentitem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/3rdparty/addons/currentitem/jquery.mmenu.currentitem.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jquery.mmenu.debugger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/dividers/jquery.mmenu.dividers.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/dividers/jquery.mmenu.dividers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/dividers/jquery.mmenu.dividers.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/dividers/jquery.mmenu.dividers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/3rdparty/addons/dragclose/jquery.mmenu.dragclose.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/3rdparty/addons/dragclose/jquery.mmenu.dragclose.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/dragopen/jquery.mmenu.dragopen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/dragopen/jquery.mmenu.dragopen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/dragopen/jquery.mmenu.dragopen.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/dragopen/jquery.mmenu.dragopen.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/dropdown/jquery.mmenu.dropdown.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/dropdown/jquery.mmenu.dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/dropdown/jquery.mmenu.dropdown.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/dropdown/jquery.mmenu.dropdown.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/extensions/effects/jquery.mmenu.effects.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/extensions/effects/jquery.mmenu.effects.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/fixedelements/jquery.mmenu.fixedelements.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/fixedelements/jquery.mmenu.fixedelements.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/extensions/fullscreen/jquery.mmenu.fullscreen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/extensions/fullscreen/jquery.mmenu.fullscreen.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/extensions/iconbar/jquery.mmenu.iconbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/extensions/iconbar/jquery.mmenu.iconbar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/iconpanels/jquery.mmenu.iconpanels.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/iconpanels/jquery.mmenu.iconpanels.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/iconpanels/jquery.mmenu.iconpanels.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/iconpanels/jquery.mmenu.iconpanels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wrappers/jquerymobile/jquery.mmenu.jquerymobile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/wrappers/jquerymobile/jquery.mmenu.jquerymobile.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/jquery.mmenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/extensions/justifiedlistview/jquery.mmenu.justifiedlistview.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/extensions/justifiedlistview/jquery.mmenu.justifiedlistview.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/3rdparty/extensions/leftsubpanels/jquery.mmenu.leftsubpanels.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/3rdparty/extensions/leftsubpanels/jquery.mmenu.leftsubpanels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wrappers/magento/jquery.mmenu.magento.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/wrappers/magento/jquery.mmenu.magento.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/js/jquery.mmenu.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/js/jquery.mmenu.min.umd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/extensions/multiline/jquery.mmenu.multiline.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/extensions/multiline/jquery.mmenu.multiline.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/navbars/jquery.mmenu.navbar.breadcrumbs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/navbars/jquery.mmenu.navbar.close.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/navbars/jquery.mmenu.navbar.next.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/navbars/jquery.mmenu.navbar.prev.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/navbars/jquery.mmenu.navbar.searchfield.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/navbars/jquery.mmenu.navbar.title.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/navbars/jquery.mmenu.navbars.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/navbars/jquery.mmenu.navbars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/navbars/jquery.mmenu.navbars.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/navbars/jquery.mmenu.navbars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/offcanvas/jquery.mmenu.offcanvas.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/offcanvas/jquery.mmenu.offcanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/offcanvas/jquery.mmenu.offcanvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/offcanvas/jquery.mmenu.offcanvas.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wrappers/olark/jquery.mmenu.olark.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/wrappers/olark/jquery.mmenu.olark.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/css/jquery.mmenu.oncanvas.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/jquery.mmenu.oncanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/js/jquery.mmenu.oncanvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/jquery.mmenu.oncanvas.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/extensions/pagedim/jquery.mmenu.pagedim.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/extensions/pagedim/jquery.mmenu.pagedim.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/extensions/pageshadow/jquery.mmenu.pageshadow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/extensions/pageshadow/jquery.mmenu.pageshadow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/3rdparty/extensions/panelshadow/jquery.mmenu.panelshadow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/3rdparty/extensions/panelshadow/jquery.mmenu.panelshadow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/extensions/popup/jquery.mmenu.popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/extensions/popup/jquery.mmenu.popup.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/extensions/positioning/jquery.mmenu.positioning.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/extensions/positioning/jquery.mmenu.positioning.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/screenreader/jquery.mmenu.screenreader.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/screenreader/jquery.mmenu.screenreader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/screenreader/jquery.mmenu.screenreader.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/screenreader/jquery.mmenu.screenreader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/scrollbugfix/jquery.mmenu.scrollbugfix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/scrollbugfix/jquery.mmenu.scrollbugfix.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/searchfield/jquery.mmenu.searchfield.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/searchfield/jquery.mmenu.searchfield.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/searchfield/jquery.mmenu.searchfield.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/searchfield/jquery.mmenu.searchfield.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/sectionindexer/jquery.mmenu.sectionindexer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/sectionindexer/jquery.mmenu.sectionindexer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/sectionindexer/jquery.mmenu.sectionindexer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/sectionindexer/jquery.mmenu.sectionindexer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/setselected/jquery.mmenu.setselected.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/setselected/jquery.mmenu.setselected.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/setselected/jquery.mmenu.setselected.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/setselected/jquery.mmenu.setselected.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/extensions/themes/jquery.mmenu.themes.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/extensions/themes/jquery.mmenu.themes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/extensions/tileview/jquery.mmenu.tileview.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/extensions/tileview/jquery.mmenu.tileview.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/toggles/jquery.mmenu.toggles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/toggles/jquery.mmenu.toggles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/addons/toggles/jquery.mmenu.toggles.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/addons/toggles/jquery.mmenu.toggles.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wrappers/turbolinks/jquery.mmenu.turbolinks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/wrappers/turbolinks/jquery.mmenu.turbolinks.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/extensions/widescreen/jquery.mmenu.widescreen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/extensions/widescreen/jquery.mmenu.widescreen.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wrappers/wordpress/jquery.mmenu.wordpress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/wrappers/wordpress/jquery.mmenu.wordpress.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mmenu.jquery.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/js/modernizr.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/css/sidebardemo.css" />
-      <change type="DELETED" beforePath="D:\wamp\www\project\newUI\contacts.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\wamp\www\project\newUI\gallery.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\wamp\www\project\newUI\nutrition.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\wamp\www\project\newUI\timetable.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\wamp\www\project\newUI\trainings.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/images/sleep.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/js/cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/js/loginStatus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/setting/setting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/setting/settingContent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newUI/activity/activity.html" afterPath="$PROJECT_DIR$/newUI/activity/activity.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newUI/advice/advice.html" afterPath="$PROJECT_DIR$/newUI/advice/advice.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newUI/css/health.css" afterPath="$PROJECT_DIR$/newUI/css/health.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newUI/health/health.html" afterPath="$PROJECT_DIR$/newUI/health/health.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newUI/health/healthContent.html" afterPath="$PROJECT_DIR$/newUI/health/healthContent.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newUI/index.html" afterPath="$PROJECT_DIR$/newUI/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newUI/css/login.css" afterPath="$PROJECT_DIR$/newUI/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newUI/login.html" afterPath="$PROJECT_DIR$/newUI/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loginPHP/login.php" afterPath="$PROJECT_DIR$/loginPHP/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newUI/css/slider.css" afterPath="$PROJECT_DIR$/newUI/css/slider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newUI/css/style.css" afterPath="$PROJECT_DIR$/newUI/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/项目.iml" afterPath="$PROJECT_DIR$/.idea/项目.iml" />
-      <change type="MOVED" beforePath="D:\wamp\www\project\login.js" afterPath="$PROJECT_DIR$/newUI/css/component.css" />
-      <change type="MOVED" beforePath="D:\wamp\www\project\newUI\register.html" afterPath="$PROJECT_DIR$/newUI/activity/activity.html" />
     </list>
     <ignored path="项目.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -210,116 +39,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="health.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newUI/health/health.html">
+      <file leaf-file-name="health.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/newUI/css/health.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.892858" vertical-offset="362" max-vertical-offset="1007">
-              <caret line="54" column="115" selection-start-line="54" selection-start-column="115" selection-end-line="54" selection-end-column="115" />
-              <folding>
-                <element signature="tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="1.3049759" vertical-offset="2094" max-vertical-offset="3040">
+              <caret line="153" column="13" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="healthContent.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="healthContent.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newUI/health/healthContent.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9322034" vertical-offset="284" max-vertical-offset="1368">
-              <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+            <state vertical-scroll-proportion="-7.0" vertical-offset="564" max-vertical-offset="2090">
+              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getData.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HealthUI/getData.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="665">
-              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="access.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HealthUI/access.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
-              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="access.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activityUI/access.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="joinActivity.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activityUI/joinActivity.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="118.07143" vertical-offset="3306" max-vertical-offset="4028">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newUI/activity/activity.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.857142" vertical-offset="740" max-vertical-offset="1311">
-              <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="advice.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newUI/advice/advice.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.928572" vertical-offset="740" max-vertical-offset="1311">
-              <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adviceContent.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newUI/advice/adviceContent.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.4285715" vertical-offset="246" max-vertical-offset="1368">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activityContent.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newUI/activity/activityContent.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5" vertical-offset="769" max-vertical-offset="1368">
-              <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#p#0;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -347,12 +87,9 @@
         <option value="$PROJECT_DIR$/newUI/css/style.css" />
         <option value="$PROJECT_DIR$/newUI/css/slider.css" />
         <option value="$PROJECT_DIR$/HealthUI/bodyManager.html" />
-        <option value="$PROJECT_DIR$/newUI/index.html" />
         <option value="$PROJECT_DIR$/newUI/LoginPHP/login.php" />
-        <option value="$PROJECT_DIR$/loginPHP/login.php" />
         <option value="$PROJECT_DIR$/newUI/login.html" />
         <option value="$PROJECT_DIR$/HealthUI/getData.js" />
-        <option value="$PROJECT_DIR$/newUI/css/health.css" />
         <option value="$PROJECT_DIR$/newUI/css/normalize.css" />
         <option value="$PROJECT_DIR$/newUI/css/component.css" />
         <option value="$PROJECT_DIR$/newUI/js/modernizr.custom.js" />
@@ -362,22 +99,37 @@
         <option value="$PROJECT_DIR$/newUI/index2.html" />
         <option value="$PROJECT_DIR$/src/css/_imp/_variables.scss" />
         <option value="$PROJECT_DIR$/dist/css/jquery.mmenu.all.css" />
-        <option value="$PROJECT_DIR$/newUI/css/main.css" />
-        <option value="$PROJECT_DIR$/newUI/activity/activity.html" />
         <option value="$PROJECT_DIR$/newUI/activity/activityContent.html" />
-        <option value="$PROJECT_DIR$/newUI/health/health.html" />
-        <option value="$PROJECT_DIR$/newUI/health/healthContent.html" />
-        <option value="$PROJECT_DIR$/newUI/advice/advice.html" />
         <option value="$PROJECT_DIR$/newUI/advice/adviceContent.html" />
+        <option value="$PROJECT_DIR$/loginPHP/login.php" />
+        <option value="$PROJECT_DIR$/newUI/css/main.css" />
+        <option value="$PROJECT_DIR$/newUI/setting/settingContent.html" />
+        <option value="$PROJECT_DIR$/newUI/js/cookie.js" />
+        <option value="$PROJECT_DIR$/newUI/health/health.html" />
+        <option value="$PROJECT_DIR$/newUI/activity/activity.html" />
+        <option value="$PROJECT_DIR$/newUI/advice/advice.html" />
+        <option value="$PROJECT_DIR$/newUI/js/loginStatus.js" />
+        <option value="$PROJECT_DIR$/newUI/setting/setting.html" />
+        <option value="$PROJECT_DIR$/newUI/index.html" />
+        <option value="$PROJECT_DIR$/newUI/health/healthContent.html" />
+        <option value="$PROJECT_DIR$/newUI/css/health.css" />
       </list>
     </option>
   </component>
+  <component name="JsGulpfileManager">
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <initial>false</initial>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP5.6" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="502" />
-    <option name="y" value="30" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="70" />
+    <option name="y" value="-8" />
+    <option name="width" value="1304" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -435,6 +187,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="newUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="项目" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="setting" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -520,20 +290,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="loginUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="项目" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="HealthUI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -574,8 +330,8 @@
       <recent name="D:\wamp\www\project\newUI\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\wamp\www\project\newUI\activity" />
       <recent name="D:\wamp\www\project\newUI\images" />
+      <recent name="D:\wamp\www\project\newUI\activity" />
       <recent name="D:\wamp\www\project\newUI\css" />
       <recent name="D:\wamp\www\project\newUI" />
       <recent name="D:\wamp\www\project\newUI\js" />
@@ -596,15 +352,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -638,34 +394,41 @@
       <option name="project" value="LOCAL" />
       <updated>1466508056529</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="雅蠛蝶">
+      <created>1466749919264</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1466749919264</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="502" y="30" width="1382" height="744" extended-state="0" />
+    <frame x="70" y="-8" width="1304" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22163388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23874599" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822084" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -694,87 +457,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/newUI/js/Coolvetica_400.font.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="586">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newUI/js/gnmenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1264" max-vertical-offset="1900">
-          <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newUI/js/modernizr.custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="836">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newUI/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6428572" vertical-offset="1303" max-vertical-offset="1862">
-          <caret line="71" column="50" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/jquery.mmenu.oncanvas.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/_imp/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="48.214287" vertical-offset="1350" max-vertical-offset="1881">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/_imp/_dividers.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/_imp/_import.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,7 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -790,7 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="59.75" vertical-offset="1673" max-vertical-offset="2204">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,7 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.071429" vertical-offset="114" max-vertical-offset="665">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,7 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3952">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,7 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="17.678572" vertical-offset="495" max-vertical-offset="1026">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,7 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="40.714287" vertical-offset="1140" max-vertical-offset="1767">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,7 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="14.25" vertical-offset="399" max-vertical-offset="1197">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -838,7 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="24.428572" vertical-offset="684" max-vertical-offset="1387">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,7 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,7 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.285715" vertical-offset="0" max-vertical-offset="1311">
           <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,7 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="19.714285" vertical-offset="552" max-vertical-offset="1083">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -870,7 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -878,7 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.075472" vertical-offset="216" max-vertical-offset="722">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -886,7 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="58.92453" vertical-offset="3123" max-vertical-offset="3629">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -894,7 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -902,7 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="9.094339" vertical-offset="482" max-vertical-offset="988">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -910,7 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="779">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -918,7 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="5.6037736" vertical-offset="297" max-vertical-offset="779">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -926,7 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="8.830189" vertical-offset="468" max-vertical-offset="950">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -934,7 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="14.566038" vertical-offset="772" max-vertical-offset="1254">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -943,7 +609,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="1938">
           <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
           <folding>
-            <element signature="e#1145#1374#2" expanded="true" />
+            <element signature="e#1145#1374#2" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -956,43 +622,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newUI/css/health.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1349">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newUI/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2412" max-vertical-offset="3857">
-          <caret line="154" column="26" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newUI/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9642856" vertical-offset="668" max-vertical-offset="2850">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HealthUI/getData2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HealthUI/health.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.071428" vertical-offset="4844" max-vertical-offset="5700">
-          <caret line="286" column="50" selection-start-line="286" selection-start-column="50" selection-end-line="286" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1000,7 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,19 +652,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HealthUI/bodyManager.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="33.214287" vertical-offset="3723" max-vertical-offset="4294">
-          <caret line="147" column="5" selection-start-line="147" selection-start-column="5" selection-end-line="147" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HealthUI/getData.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="665">
           <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
           <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="599">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1056,72 +677,186 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="118.07143" vertical-offset="3306" max-vertical-offset="4028">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginPHP/accessList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="599">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newUI/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1276" max-vertical-offset="1862">
+          <caret line="71" column="50" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newUI/js/cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginPHP/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38319328" vertical-offset="0" max-vertical-offset="595">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <folding>
+            <marker date="1466750761343" expanded="true" signature="-1:-1" placeholder="select psw,n..user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newUI/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62459016" vertical-offset="2526" max-vertical-offset="3857">
+          <caret line="153" column="64" selection-start-line="153" selection-start-column="64" selection-end-line="153" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newUI/setting/settingContent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="665" max-vertical-offset="1368">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newUI/activity/activity.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.857142" vertical-offset="740" max-vertical-offset="1311">
-          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        <state vertical-scroll-proportion="-10.178572" vertical-offset="0" max-vertical-offset="1387">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newUI/advice/advice.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.928572" vertical-offset="740" max-vertical-offset="1311">
-          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+        <state vertical-scroll-proportion="-10.178572" vertical-offset="0" max-vertical-offset="1387">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newUI/js/loginStatus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newUI/setting/setting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.571428" vertical-offset="37" max-vertical-offset="1349">
+          <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newUI/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-75.57143" vertical-offset="677" max-vertical-offset="2964">
+          <caret line="147" column="36" selection-start-line="147" selection-start-column="36" selection-end-line="147" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#a#1;n#div#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HealthUI/bodyManager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7092437" vertical-offset="3215" max-vertical-offset="4294">
+          <caret line="147" column="5" selection-start-line="147" selection-start-column="5" selection-end-line="147" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5885246" vertical-offset="969" max-vertical-offset="186314">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4574639" vertical-offset="0" max-vertical-offset="623">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HealthUI/health.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.46890756" vertical-offset="5105" max-vertical-offset="5700">
+          <caret line="254" column="5" selection-start-line="254" selection-start-column="5" selection-end-line="254" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newUI/activity/activityContent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="769" max-vertical-offset="1368">
+        <state vertical-scroll-proportion="-17.5" vertical-offset="517" max-vertical-offset="1368">
           <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newUI/advice/adviceContent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4285715" vertical-offset="246" max-vertical-offset="1368">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newUI/health/health.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.892858" vertical-offset="362" max-vertical-offset="1007">
-          <caret line="54" column="115" selection-start-line="54" selection-start-column="115" selection-end-line="54" selection-end-column="115" />
-          <folding>
-            <element signature="tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.36134455" vertical-offset="697" max-vertical-offset="1349">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newUI/advice/adviceContent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57478994" vertical-offset="0" max-vertical-offset="1368">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newUI/health/healthContent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9322034" vertical-offset="284" max-vertical-offset="1368">
-          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        <state vertical-scroll-proportion="-7.0" vertical-offset="564" max-vertical-offset="2090">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#p#0;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newUI/css/health.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3049759" vertical-offset="2094" max-vertical-offset="3040">
+          <caret line="153" column="13" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
