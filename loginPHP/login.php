@@ -3,7 +3,7 @@
         require("sqlite.php");
         $db = new MyDB();
         $name = $_POST["username"];
-        $psw = $_POST["psw"];
+        $psw = $_POST["password"];
         $sql = "select psw,nickname from user where id=$name";
         $ret = $db->query($sql);
         $row = $ret->fetchArray(SQLITE3_ASSOC);
@@ -11,14 +11,14 @@
         $nickname = $row['nickname'];
         if ($result == $psw) {
             setcookie('user_id',$name,time()+3600);
-            setcookie('psw',$psw,time()+3600);
+            setcookie('password',$psw,time()+3600);
             setcookie('nickname',$nickname,time()+3600);
-            header("location:../HealthUI/health.html");
+            header("location:../newUI/health/health.html");
         }
         else
-            header("location:../loginUI/login.html?v=0");
+            header("location:../newUI/login.html?v=0");
     }
     else{
-        header("location:../HealthUI/health.html");
+        header("location:../newUI/health/health.html");
     }
 ?>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="www.frebsite.nl" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+
+    <title>jQuery.mmenu demo</title>
+
+    <link type="text/css" rel="stylesheet" href="../css/sidebardemo.css" />
+    <link type="text/css" rel="stylesheet" href="../../dist/css/jquery.mmenu.all.css" />
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="../../dist/js/jquery.mmenu.all.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('nav#menu').mmenu();
+        });
+    </script>
+</head>
+<body>
+<div id="page">
+    <div class="header">
+        <a href="#menu"></a>
+        <p>专家咨询</p>
+    </div>
+    <div class="content">
+        <div style="display: block">
+            我的问题
+        </div>
+        <div style="display: none">
+            发布问题
+        </div>
+        <div style="display: none">
+            运动分析
+        </div>
+        <div style="display: none">
+            专家建议
+        </div>
+    </div>
+    <nav id="menu">
+        <ul class="tab">
+            <li><a href="#">我的问题</a></li>
+            <li><a href="#">发布问题</a></li>
+            <li><a href="#">运动分析</a></li>
+            <li><a href="#">专家建议</a></li>
+        </ul>
+    </nav>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".tab li").click(function(){
+                $(".content div").hide().eq($(this).index()).show();
+                if($(this).index() == 0){
+                    $(".header p").html("我的问题");
+                } else if($(this).index() == 1){
+                    $(".header p").html("发布问题");
+                } else if($(this).index() == 2){
+                    $(".header p").html("运动分析");
+                } else{
+                    $(".header p").html("专家建议");
+                }
+            });
+        });
+    </script>
+</div>
+</body>
+</html>

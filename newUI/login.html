@@ -11,6 +11,15 @@
     <link rel="stylesheet" type="text/css" href="css/login.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/animate-custom.css" />
+    <script>
+        function onloads() {
+            url = window.location.href;
+            temp = url.split("=");
+            if (temp[1] != null && temp[1] == 0) {
+                alert("密码错误");
+            }
+        }
+    </script>
 </head>
 <body>
 <div class="container">
@@ -23,7 +32,7 @@
             <a class="hiddenanchor" id="tologin"></a>
             <div id="wrapper">
                 <div id="login" class="animate form">
-                    <form  action="login.php" autocomplete="on">
+                    <form  action="http://localhost/project/LoginPHP/login.php" method="post" autocomplete="on">
                         <h1>Log in</h1>
                         <p>
                             <label for="username" class="uname" data-icon="u" > Your username or email</label>

@@ -1,0 +1,66 @@
+/*body{*/
+    /*background-image: url("../images/bg.jpg");*/
+    /*background-size: 100%;*/
+/*}*/
+.tab{
+    width: 200px;
+    height: 450px;
+    float: left;
+}
+.tab li{
+    font-size: 25px;
+    line-height: 60px;
+}
+.my-sports,.body-manage{
+    width: 750px;
+    height: 450px;
+    display: none;
+    float: left;
+}
+.on{
+    display: block;
+}
+.cur{
+    color: #01a5ca;
+}
+.data{
+    width: 260px;
+    height: 40px;
+    margin: 10px 0;
+    display: block;
+    margin-right: 10px;
+}
+.data label{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    font-size: 15px;
+}
+.data input{
+    border-radius: 5px;
+    border:none;
+    width: 100px;
+    margin-left: 20px;
+}
+.body-manage{
+    background: url('../images/1.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+#body_module{
+    position: relative;
+    left: 300px;
+    top: 50px;
+    width: 300px;
+    height: 500px;
+    display: block;
+    font-size: 15px;
+}
+#body_module form{
+    width: 260px;
+    height: 300px;
+}
+#body_module form ul li{
+    width: 260px;
+    height: 25px;
+    font-size: 15px;
+}

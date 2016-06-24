@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="www.frebsite.nl" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+
+    <title>jQuery.mmenu demo</title>
+
+    <link type="text/css" rel="stylesheet" href="../css/sidebardemo.css" />
+    <link type="text/css" rel="stylesheet" href="../../dist/css/jquery.mmenu.all.css" />
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="../../dist/js/jquery.mmenu.all.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('nav#menu').mmenu();
+        });
+    </script>
+</head>
+<body>
+<div id="page">
+    <div class="header">
+        <a href="#menu"></a>
+        <p>健康管家</p>
+    </div>
+    <div class="content">
+        <div style="display: block">
+            我的运动
+        </div>
+        <div style="display: none">
+            身体管理
+        </div>
+        <div style="display: none">
+            睡眠分析
+        </div>
+        <div style="display: none">
+            手持设备
+        </div>
+    </div>
+    <nav id="menu">
+        <ul class="tab">
+            <li><a href="#">我的运动</a></li>
+            <li><a href="#">身体管理</a></li>
+            <li><a href="#">睡眠分析</a></li>
+            <li><a href="#">手持设备</a></li>
+        </ul>
+    </nav>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".tab li").click(function(){
+                $(".content div").hide().eq($(this).index()).show();
+                if($(this).index() == 0){
+                    $(".header p").html("我的运动");
+                } else if($(this).index() == 1){
+                    $(".header p").html("身体管理");
+                } else if($(this).index() == 2){
+                    $(".header p").html("睡眠分析");
+                } else{
+                    $(".header p").html("手持设备");
+                }
+            });
+        });
+    </script>
+</div>
+</body>
+</html>
