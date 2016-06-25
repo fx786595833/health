@@ -69,10 +69,25 @@
             </form>
         </div>
         <div id="sleep-analysis" style="display: none">
-            睡眠分析
+            <p>
+                您今天睡眠总时长为6小时32分钟54秒
+                <br>
+                您最近一周平均每天睡眠时间为5小时45分钟32秒
+            </p>
+            <p>您的睡眠有点差哦</p>
         </div>
         <div id="device" style="display: none">
-            手持设备
+            <p>
+                您当前所使用的设备为
+                <select>
+                    <option>小米手环</option>
+                    <option>华为手环</option>
+                </select>
+            </p>
+            <p>
+                您有新的数据需要导入哦~~~
+                <input type="button" value="导入">
+            </p>
         </div>
     </div>
     <nav id="menu">
@@ -94,8 +109,10 @@
                     $("#body-condition").css("display","block");
                 } else if($(this).index() == 2){
                     $(".header p").html("睡眠分析");
+                    $("#sleep-analysis").css("display","block");
                 } else{
                     $(".header p").html("手持设备");
+                    $("#device").css("display","block");
                 }
             });
         });

@@ -9,14 +9,22 @@
 
     <link type="text/css" rel="stylesheet" href="../css/sidebardemo.css" />
     <link type="text/css" rel="stylesheet" href="../../dist/css/jquery.mmenu.all.css" />
+    <link type="text/css" rel="stylesheet" href="../css/advice.css">
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="../js/jquery-3.0.0.min.js"></script>
     <script type="text/javascript" src="../../dist/js/jquery.mmenu.all.min.js"></script>
     <script type="text/javascript">
         $(function() {
             $('nav#menu').mmenu();
         });
     </script>
+    <style>
+        #canvas{
+            position: absolute;
+            left: 20px;
+            top: 45px;
+        }
+    </style>
 </head>
 <body>
 <div id="page">
@@ -25,25 +33,180 @@
         <p>专家咨询</p>
     </div>
     <div class="content">
-        <div style="display: block">
-            我的问题
+        <div id="my-problem" style="display: block">
+            <header>
+                <form>
+                    <table>
+                        <tr>
+                            <td>解决状态</td>
+                            <td>
+                                <input type="checkbox" name="problem-status" value="all">所有
+                                <input type="checkbox" name="problem-status" value="unsolved">未解决
+                                <input type="checkbox" name="problem-status" value="solved">已解决
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>问题类型</td>
+                            <td>
+                                <input type="checkbox" name="problem-types" value="all">所有
+                                <input type="checkbox" name="problem-types" value="eat">饮食建议
+                                <input type="checkbox" name="problem-types" value="sports">运动指南
+                                <input type="checkbox" name="problem-types" value="left">生活贴士
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </header>
+            <section>
+                <table>
+                    <tr>
+                        <th>问题编号</th>
+                        <th>问题类型</th>
+                        <th>问题标题</th>
+                        <th>问题状态</th>
+                        <th>回答人</th>
+                        <th>最终采纳</th>
+                    </tr>
+                    <tr>
+                        <td>000001</td>
+                        <td>饮食建议</td>
+                        <td>早上吃啥比较好?</td>
+                        <td>未解决</td>
+                        <td>王一琦、冯鑫、殷迪、张怡</td>
+                        <td>无</td>
+                    </tr>
+                    <tr>
+                        <td>000002</td>
+                        <td>饮食建议</td>
+                        <td>早上吃啥比较好?</td>
+                        <td>已解决</td>
+                        <td>王一琦、冯鑫、殷迪、张怡</td>
+                        <td>王一琦</td>
+                    </tr>
+                    <tr>
+                        <td>000003</td>
+                        <td>饮食建议</td>
+                        <td>早上吃啥比较好?</td>
+                        <td>已解决</td>
+                        <td>王一琦、冯鑫、殷迪、张怡</td>
+                        <td>王一琦</td>
+                    </tr>
+                    <tr>
+                        <td>000004</td>
+                        <td>饮食建议</td>
+                        <td>早上吃啥比较好?</td>
+                        <td>已解决</td>
+                        <td>王一琦、冯鑫、殷迪、张怡</td>
+                        <td>王一琦</td>
+                    </tr>
+                </table>
+            </section>
         </div>
-        <div style="display: none">
-            发布问题
+        <div id="new-problem" style="display: none">
+            <form>
+                <table>
+                    <tr>
+                        <td>问题标题</td>
+                        <td>
+                            <input id="problem-title" placeholder="e.g. 应该吃啥咧" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>问题类型</td>
+                        <td>
+                            <select>
+                                <option>饮食建议</option>
+                                <option>运动指南</option>
+                                <option>生活贴士</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>问题描述</td>
+                        <td>
+                            <textarea placeholder="e.g. 今天学了一天，好饿，感觉大脑不够用了，我该吃啥咧">
+                            </textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>悬赏积分</td>
+                        <td><input id="score-input" type="number"><p></p></td>
+                    </tr>
+                </table>
+                <input type="button" value="发布">
+            </form>
         </div>
-        <div style="display: none">
-            运动分析
-        </div>
-        <div style="display: none">
-            专家建议
-        </div>
+        <div id="problem-group" style="display: none">
+            <section>
+                <table>
+                    <tr>
+                        <td>
+                            <p><img src="../images/login.png"><a>王一琦</a>发布了一个问题<a>如何防止打撸的时候注意力不集中</a></p>
+                            <br>
+                            <p>回答(<a>3</a>)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><img src="../images/1.jpg"><a>王一琦</a>发布了一个问题<a>如何防止打撸的时候注意力不集中</a></p>
+                            <br>
+                            <p>回答(<a>3</a>)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><img src="../images/1.jpg"><a>王一琦</a>发布了一个问题<a>如何防止打撸的时候注意力不集中</a></p>
+                            <br>
+                            <p>回答(<a>3</a>)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><img src="../images/1.jpg"><a>王一琦</a>发布了一个问题<a>如何防止打撸的时候注意力不集中</a></p>
+                            <br>
+                            <p>回答(<a>3</a>)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><img src="../images/1.jpg"><a>王一琦</a>发布了一个问题<a>如何防止打撸的时候注意力不集中</a></p>
+                            <br>
+                            <p>回答(<a>3</a>)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><img src="../images/1.jpg"><a>王一琦</a>发布了一个问题<a>如何防止打撸的时候注意力不集中</a></p>
+                            <br>
+                            <p>回答(<a>3</a>)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><img src="../images/1.jpg"><a>王一琦</a>发布了一个问题<a>如何防止打撸的时候注意力不集中</a></p>
+                            <br>
+                            <p>回答(<a>3</a>)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><img src="../images/1.jpg"><a>王一琦</a>发布了一个问题<a>如何防止打撸的时候注意力不集中</a></p>
+                            <br>
+                            <p>回答(<a>3</a>)</p>
+                        </td>
+                    </tr>
+                </table>
+                <script type="text/javascript">
+                    $("#problem-group div").css("display","block");
+                </script>
+            </section>
+        </di>
     </div>
     <nav id="menu">
         <ul class="tab">
             <li><a href="#">我的问题</a></li>
             <li><a href="#">发布问题</a></li>
-            <li><a href="#">运动分析</a></li>
-            <li><a href="#">专家建议</a></li>
+            <li><a href="#">问题圈</a></li>
         </ul>
     </nav>
     <script type="text/javascript">
@@ -55,9 +218,7 @@
                 } else if($(this).index() == 1){
                     $(".header p").html("发布问题");
                 } else if($(this).index() == 2){
-                    $(".header p").html("运动分析");
-                } else{
-                    $(".header p").html("专家建议");
+                    $(".header p").html("问题圈");
                 }
             });
         });

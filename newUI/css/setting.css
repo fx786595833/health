@@ -1,0 +1,14 @@
+.content>div{
+    width: 960px;
+    height: 450px;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+}
+#fileupload{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+}

@@ -1,0 +1,40 @@
+#my-problem{
+    width: 960px;
+    height: 450px;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+}
+#my-problem section{
+    width: 960px;
+    height: 300px;
+    overflow-y: yes;
+    SCROLLBAR-SHADOW-COLOR: #3d5054; SCROLLBAR-3DLIGHT-COLOR: #3d5054; SCROLLBAR-ARROW-COLOR: #ffd6da;SCROLLBAR-DARKSHADOW-COLOR: #85989c;
+    SCROLLBAR-FACE-COLOR: #889b9f;  SCROLLBAR-HIGHLIGHT-COLOR: #c3d6da;
+    OVERFLOW: auto;
+}
+
+#problem-group{
+    width: 960px;
+    height: 450px;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+}
+
+#new-problem{
+    width: 960px;
+    height: 450px;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+}
+
+#problem-group section{
+    width: 960px;
+    height: 450px;
+    overflow-y: yes;
+    SCROLLBAR-SHADOW-COLOR: #3d5054; SCROLLBAR-3DLIGHT-COLOR: #3d5054; SCROLLBAR-ARROW-COLOR: #ffd6da;SCROLLBAR-DARKSHADOW-COLOR: #85989c;
+    SCROLLBAR-FACE-COLOR: #889b9f;  SCROLLBAR-HIGHLIGHT-COLOR: #c3d6da;
+    OVERFLOW: auto;
+}

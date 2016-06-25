@@ -9,9 +9,11 @@
 
     <link type="text/css" rel="stylesheet" href="../css/sidebardemo.css" />
     <link type="text/css" rel="stylesheet" href="../../dist/css/jquery.mmenu.all.css" />
+    <link type="text/css" rel="stylesheet" href="../css/setting.css">
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="../js/jquery-3.0.0.min.js"></script>
     <script type="text/javascript" src="../../dist/js/jquery.mmenu.all.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-ui.js"></script>
     <script type="text/javascript">
         $(function() {
             $('nav#menu').mmenu();
@@ -26,24 +28,83 @@
     </div>
     <div class="content">
         <div style="display: block">
-            基本信息
+            <form>
+                <table>
+                    <tr>
+                        <td>昵称</td>
+                        <input id="nickname" type="text">
+                    </tr>
+                    <tr>
+                        <td>性别</td>
+                        <td>
+                            <input type="radio" name="gender">男
+                            <input type="radio" name="gender">女
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>生日</td>
+                        <td>
+                            <input type="text" id="datepicker">
+                        </td>
+                    </tr>
+                    <script>
+                        $("#datepicker").datepicker();
+                    </script>
+                    <tr>
+                        <td>所在地</td>
+                        <td>
+                            <select>
+                                <option>北京</option>
+                                <option>南京</option>
+                                <option>上海</option>
+                                <option>杭州</option>
+                                <option>深圳</option>
+                                <option>广州</option>
+                                <option>其他</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>兴趣</td>
+                        <td>
+                            <input type="checkbox" name="interest">跑步
+                            <input type="checkbox" name="interest">登山
+                            <input type="checkbox" name="interest">游泳
+                            <input type="checkbox" name="interest">自行车
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>运动宣言</td>
+                        <td>
+                            <textarea></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <input type="button" value="保存">
+            </form>
         </div>
         <div style="display: none">
-            头像设置
+            <form action="http://localhost/project/loginPHP/headManager.php" method="post" enctype="multipart/form-data" id="fileupload">
+                <div class="uploadcontent" style="display: block">
+                    <img src="" alt="">
+                    <input name="file" type="file" accept="image/gif, image/jpeg">
+                    <input name="upload" type="submit">
+                </div>
+            </form>
         </div>
         <div style="display: none">
-            好友管理
+            安全管理
         </div>
         <div style="display: none">
-            认证管理
+            关注列表
         </div>
     </div>
     <nav id="menu">
         <ul class="tab">
             <li><a href="#">基本信息</a></li>
             <li><a href="#">头像设置</a></li>
-            <li><a href="#">好友管理</a></li>
-            <li><a href="#">认证管理</a></li>
+            <li><a href="#">安全管理</a></li>
+            <li><a href="#">关注列表</a></li>
         </ul>
     </nav>
     <script type="text/javascript">
@@ -51,13 +112,14 @@
             $(".tab li").click(function(){
                 $(".content div").hide().eq($(this).index()).show();
                 if($(this).index() == 0){
-                    $(".header p").html("我的运动");
+                    $(".header p").html("基本信息");
                 } else if($(this).index() == 1){
-                    $(".header p").html("身体管理");
+                    $(".header p").html("头像设置");
+                    $(".uploadcontent").css("display","block");
                 } else if($(this).index() == 2){
-                    $(".header p").html("睡眠分析");
+                    $(".header p").html("安全管理");
                 } else{
-                    $(".header p").html("手持设备");
+                    $(".header p").html("关注列表");
                 }
             });
         });

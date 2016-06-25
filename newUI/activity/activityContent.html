@@ -9,9 +9,11 @@
 
     <link type="text/css" rel="stylesheet" href="../css/sidebardemo.css" />
     <link type="text/css" rel="stylesheet" href="../../dist/css/jquery.mmenu.all.css" />
+    <link type="text/css" rel="stylesheet" href="../css/activity.css">
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.js"></script>
     <script type="text/javascript" src="../../dist/js/jquery.mmenu.all.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-ui.js"></script>
     <script type="text/javascript">
         $(function() {
             $('nav#menu').mmenu();
@@ -25,17 +27,404 @@
         <p>活动广场</p>
     </div>
     <div class="content">
-        <div style="display: block">
-            我的活动
+        <div id="my-activity" style="display: block">
+            <header>
+                <p>我的活动列表</p>
+                <form>
+                    <table border="0px">
+                        <tr>
+                            <td>按完结情况筛选</td>
+                            <td>
+                                <input type="radio" name="condition" value="all">所有
+                                <input type="radio" name="condition" value="unfinished">未完结
+                                <input type="radio" name="condition" value="finished">已完结
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>按活动类型筛选</td>
+                            <td>
+                                <input type="checkbox" name="event-types" value="all">所有
+                                <input type="checkbox" name="event-types" value="running">跑步
+                                <input type="checkbox" name="event-types" value="climb">登山
+                                <input type="checkbox" name="event-types" value="swimming">游泳
+                                <input type="checkbox" name="event-types" value="bicycle">自行车
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="button" value="Search" name="Search">
+                </form>
+            </header>
+            <section>
+                <table>
+                    <tr>
+                        <th>活动编号</th>
+                        <th>活动标题</th>
+                        <th>运动类型</th>
+                        <th>运动时间</th>
+                        <th>运动地点</th>
+                        <th>参与人数</th>
+                        <th>活动状态</th>
+                    </tr>
+                    <tr>
+                        <td>00001</td>
+                        <td>众志成城，万众一心</td>
+                        <td><img src="../images/type1.png"></td>
+                        <td>起:2016/6/25 18:00<br>止:2016/6/25 20:00</td>
+                        <td>南京大学苏浙运动场</td>
+                        <td>3</td>
+                        <td>正在进行</td>
+                    </tr>
+                    <tr>
+                        <td>00001</td>
+                        <td>众志成城，万众一心</td>
+                        <td><img src="../images/type1.png"></td>
+                        <td>起:2016/6/25 18:00<br>止:2016/6/25 20:00</td>
+                        <td>南京大学苏浙运动场</td>
+                        <td>3</td>
+                        <td>正在进行</td>
+                    </tr>
+                    <tr>
+                        <td>00001</td>
+                        <td>众志成城，万众一心</td>
+                        <td><img src="../images/type1.png"></td>
+                        <td>起:2016/6/25 18:00<br>止:2016/6/25 20:00</td>
+                        <td>南京大学苏浙运动场</td>
+                        <td>3</td>
+                        <td>正在进行</td>
+                    </tr>
+                    <tr>
+                        <td>00001</td>
+                        <td>众志成城，万众一心</td>
+                        <td><img src="../images/type1.png"></td>
+                        <td>起:2016/6/25 18:00<br>止:2016/6/25 20:00</td>
+                        <td>南京大学苏浙运动场</td>
+                        <td>3</td>
+                        <td>正在进行</td>
+                    </tr>
+                    <tr>
+                        <td>00001</td>
+                        <td>众志成城，万众一心</td>
+                        <td><img src="../images/type1.png"></td>
+                        <td>起:2016/6/25 18:00<br>止:2016/6/25 20:00</td>
+                        <td>南京大学苏浙运动场</td>
+                        <td>3</td>
+                        <td>正在进行</td>
+                    </tr>
+                </table>
+            </section>
         </div>
-        <div style="display: none">
-            发布活动
+        <div id="publish-activity" style="display: none">
+            <form>
+                <table>
+                    <tr>
+                        <td>活动标题</td>
+                        <td style="text-align: left"><input type="text" placeholder="e.g. NJU鼓楼校区夜跑"></td>
+                    </tr>
+                    <tr>
+                        <td>活动类型</td>
+                        <td>
+                            <input type="image" src="../images/type1.png">
+                            <input type="image" src="../images/type2.png">
+                            <input type="image" src="../images/type3.png">
+                            <input type="image" src="../images/type4.png">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>活动简介</td>
+                        <td style="text-align: left">
+                            <textarea id="activity-intro" rows="10" cols="70"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>活动地点</td>
+                        <td style="text-align: left">
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>起止时间</td>
+                        <td style="text-align: left">
+                            <p><input type="text" id="datepicker1">-
+                                <select>
+                                    <option value="00:00">00:00</option>
+                                    <option value="01:00">01:00</option>
+                                    <option value="02:00">02:00</option>
+                                    <option value="03:00">03:00</option>
+                                    <option value="04:00">04:00</option>
+                                    <option value="05:00">05:00</option>
+                                    <option value="06:00">06:00</option>
+                                    <option value="07:00">07:00</option>
+                                    <option value="08:00">08:00</option>
+                                    <option value="09:00">09:00</option>
+                                    <option value="10:00">10:00</option>
+                                    <option value="11:00">11:00</option>
+                                    <option value="12:00">12:00</option>
+                                    <option value="13:00">13:00</option>
+                                    <option value="14:00">14:00</option>
+                                    <option value="15:00">15:00</option>
+                                    <option value="16:00">16:00</option>
+                                    <option value="17:00">17:00</option>
+                                    <option value="18:00">18:00</option>
+                                    <option value="19:00">19:00</option>
+                                    <option value="20:00">20:00</option>
+                                    <option value="21:00">21:00</option>
+                                    <option value="22:00">22:00</option>
+                                    <option value="23:00">23:00</option>
+                                </select>
+                                至
+                                <input type="text" id="datepicker2">-
+                                <select>
+                                    <option value="00:00">00:00</option>
+                                    <option value="01:00">01:00</option>
+                                    <option value="02:00">02:00</option>
+                                    <option value="03:00">03:00</option>
+                                    <option value="04:00">04:00</option>
+                                    <option value="05:00">05:00</option>
+                                    <option value="06:00">06:00</option>
+                                    <option value="07:00">07:00</option>
+                                    <option value="08:00">08:00</option>
+                                    <option value="09:00">09:00</option>
+                                    <option value="10:00">10:00</option>
+                                    <option value="11:00">11:00</option>
+                                    <option value="12:00">12:00</option>
+                                    <option value="13:00">13:00</option>
+                                    <option value="14:00">14:00</option>
+                                    <option value="15:00">15:00</option>
+                                    <option value="16:00">16:00</option>
+                                    <option value="17:00">17:00</option>
+                                    <option value="18:00">18:00</option>
+                                    <option value="19:00">19:00</option>
+                                    <option value="20:00">20:00</option>
+                                    <option value="21:00">21:00</option>
+                                    <option value="22:00">22:00</option>
+                                    <option value="23:00">23:00</option>
+                                </select>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>参与方式</td>
+                        <td style="text-align: left">
+                            <p>
+                                <input type="radio" name="join-way" value="任何人">任何人
+                                <input type="radio" name="join-way" value="下战书">下战书
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                <p><input type="button" value="确认"><input type="button" value="取消"></p>
+            </form>
         </div>
-        <div style="display: none">
-            参与活动
+        <div id="join-activity" style="display: none">
+            <form id="searchnewactivity">
+                <table>
+                    <tr>
+                        <td>按照类型筛选</td>
+                        <td>
+                            <p>
+                                <input type="checkbox" name="event-types" value="all">所有
+                                <input type="checkbox" name="event-types" value="running">跑步
+                                <input type="checkbox" name="event-types" value="climb">登山
+                                <input type="checkbox" name="event-types" value="swimming">游泳
+                                <input type="checkbox" name="event-types" value="bicycle">自行车
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>按照地点筛选</td>
+                        <td>
+                            <select>
+                                <option>南京大学炜华体育场</option>
+                                <option>南京大学苏浙运动场</option>
+                                <option>五台山体育馆</option>
+                                <option>奥体中心</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <input type="button" value="Search">
+            </form>
+            <section>
+                <table id="activity-to-join">
+                    <tr>
+                        <th>活动编号</th>
+                        <th>活动标题</th>
+                        <th>活动类型</th>
+                        <th>活动时间</th>
+                        <th>活动地点</th>
+                        <th>活动人数</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>00001</td>
+                        <td>众志成城，万众一心</td>
+                        <td><img src="../images/type1.png"></td>
+                        <td>起:2016/6/25 18:00<br>止:2016/6/25 20:00</td>
+                        <td>南京大学苏浙运动场</td>
+                        <td>3</td>
+                        <td>正在进行</td>
+                        <td><input type="button" value="选择参加"></td>
+                    </tr>
+                    <tr>
+                        <td>00001</td>
+                        <td>众志成城，万众一心</td>
+                        <td><img src="../images/type1.png"></td>
+                        <td>起:2016/6/25 18:00<br>止:2016/6/25 20:00</td>
+                        <td>南京大学苏浙运动场</td>
+                        <td>3</td>
+                        <td>正在进行</td>
+                        <td><input type="button" value="选择参加"></td>
+                    </tr>
+                    <tr>
+                        <td>00001</td>
+                        <td>众志成城，万众一心</td>
+                        <td><img src="../images/type1.png"></td>
+                        <td>起:2016/6/25 18:00<br>止:2016/6/25 20:00</td>
+                        <td>南京大学苏浙运动场</td>
+                        <td>3</td>
+                        <td>正在进行</td>
+                        <td><input type="button" value="选择参加"></td>
+                    </tr>
+                    <tr>
+                        <td>00001</td>
+                        <td>众志成城，万众一心</td>
+                        <td><img src="../images/type1.png"></td>
+                        <td>起:2016/6/25 18:00<br>止:2016/6/25 20:00</td>
+                        <td>南京大学苏浙运动场</td>
+                        <td>3</td>
+                        <td>正在进行</td>
+                        <td><input type="button" value="选择参加"></td>
+                    </tr>
+                    <tr>
+                        <td>00001</td>
+                        <td>众志成城，万众一心</td>
+                        <td><img src="../images/type1.png"></td>
+                        <td>起:2016/6/25 18:00<br>止:2016/6/25 20:00</td>
+                        <td>南京大学苏浙运动场</td>
+                        <td>3</td>
+                        <td>正在进行</td>
+                        <td><input type="button" value="选择参加"></td>
+                    </tr>
+                    <tr>
+                        <td>00001</td>
+                        <td>众志成城，万众一心</td>
+                        <td><img src="../images/type1.png"></td>
+                        <td>起:2016/6/25 18:00<br>止:2016/6/25 20:00</td>
+                        <td>南京大学苏浙运动场</td>
+                        <td>3</td>
+                        <td>正在进行</td>
+                        <td><input type="button" value="选择参加"></td>
+                    </tr>
+                </table>
+            </section>
         </div>
-        <div style="display: none">
-            管理活动
+        <div id="manage-activity" style="display: none">
+            <header>
+                <form>
+                    <table>
+                        <tr>
+                            <td>按照类型筛选</td>
+                            <td>
+                                <input type="checkbox" name="event-types-manage" value="all">所有
+                                <input type="checkbox" name="event-types-manage" value="running">跑步
+                                <input type="checkbox" name="event-types-manage" value="climb">登山
+                                <input type="checkbox" name="event-types-manage" value="swimming">游泳
+                                <input type="checkbox" name="event-types-manage" value="bicycle">自行车
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>按照状态筛选</td>
+                            <td>
+                                <input type="radio" value="all">所有
+                                <input type="radio" value="unfinished">未完结
+                                <input type="radio" value="finished">已完结
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>按照发布者筛选</td>
+                            <td>
+                                <input type="radio" value="all">所有
+                                <input type="radio" value="me">我发布的
+                                <input type="radio" value="others">别人发布的
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </header>
+            <section>
+                <table>
+                    <tr>
+                    <tr>
+                        <th>活动编号</th>
+                        <th>活动标题</th>
+                        <th>活动类型</th>
+                        <th>活动时间</th>
+                        <th>活动地点</th>
+                        <th>活动人数</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>00001</td>
+                        <td>众志成城，万众一心</td>
+                        <td><img src="../images/type1.png"></td>
+                        <td>起:2016/6/25 18:00<br>止:2016/6/25 20:00</td>
+                        <td>南京大学苏浙运动场</td>
+                        <td>3</td>
+                        <td>正在进行</td>
+                        <td><input type="button" value="修改活动">&nbsp;<input type="button" value="删除活动"></td>
+                    </tr>
+                    <tr>
+                        <td>00001</td>
+                        <td>众志成城，万众一心</td>
+                        <td><img src="../images/type1.png"></td>
+                        <td>起:2016/6/25 18:00<br>止:2016/6/25 20:00</td>
+                        <td>南京大学苏浙运动场</td>
+                        <td>3</td>
+                        <td>正在进行</td>
+                        <td><input type="button" value="修改活动">&nbsp;<input type="button" value="删除活动"></td>
+                    </tr>
+                    <tr>
+                        <td>00001</td>
+                        <td>众志成城，万众一心</td>
+                        <td><img src="../images/type1.png"></td>
+                        <td>起:2016/6/25 18:00<br>止:2016/6/25 20:00</td>
+                        <td>南京大学苏浙运动场</td>
+                        <td>3</td>
+                        <td>正在进行</td>
+                        <td><input type="button" value="修改活动">&nbsp;<input type="button" value="删除活动"></td>
+                    </tr>
+                    <tr>
+                        <td>00001</td>
+                        <td>众志成城，万众一心</td>
+                        <td><img src="../images/type1.png"></td>
+                        <td>起:2016/6/25 18:00<br>止:2016/6/25 20:00</td>
+                        <td>南京大学苏浙运动场</td>
+                        <td>3</td>
+                        <td>正在进行</td>
+                        <td><input type="button" value="修改活动">&nbsp;<input type="button" value="删除活动"></td>
+                    </tr>
+                    <tr>
+                        <td>00001</td>
+                        <td>众志成城，万众一心</td>
+                        <td><img src="../images/type1.png"></td>
+                        <td>起:2016/6/25 18:00<br>止:2016/6/25 20:00</td>
+                        <td>南京大学苏浙运动场</td>
+                        <td>3</td>
+                        <td>正在进行</td>
+                        <td><input type="button" value="修改活动">&nbsp;<input type="button" value="删除活动"></td>
+                    </tr>
+                    <tr>
+                        <td>00001</td>
+                        <td>众志成城，万众一心</td>
+                        <td><img src="../images/type1.png"></td>
+                        <td>起:2016/6/25 18:00<br>止:2016/6/25 20:00</td>
+                        <td>南京大学苏浙运动场</td>
+                        <td>3</td>
+                        <td>正在进行</td>
+                        <td><input type="button" value="修改活动">&nbsp;<input type="button" value="删除活动"></td>
+                    </tr>
+                </table>
+            </section>
         </div>
     </div>
     <nav id="menu">
@@ -61,6 +450,8 @@
                 }
             });
         });
+        $("#datepicker1").datepicker();
+        $("#datepicker2").datepicker();
     </script>
 </div>
 </body>

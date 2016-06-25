@@ -1,0 +1,63 @@
+#publish-activity{
+    width: 960px;
+    height: 450px;
+    position: absolute;
+    left: 0px;
+    top: 42px;
+    overflow-y: auto;
+
+    /*BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid;*/
+    SCROLLBAR-SHADOW-COLOR: #3d5054; SCROLLBAR-3DLIGHT-COLOR: #3d5054; SCROLLBAR-ARROW-COLOR: #ffd6da;SCROLLBAR-DARKSHADOW-COLOR: #85989c;
+    SCROLLBAR-FACE-COLOR: #889b9f;  SCROLLBAR-HIGHLIGHT-COLOR: #c3d6da;
+    OVERFLOW: auto;
+}
+#activity_intro{
+
+}
+#my-activity{
+    width: 960px;
+    height: 450px;
+    position: absolute;
+    left: 0px;
+    top: 42px;
+}
+#my-activity section{
+    width:960px;
+    height: 300px;
+    overflow-y: auto;
+    /*BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid;*/
+    SCROLLBAR-SHADOW-COLOR: #3d5054; SCROLLBAR-3DLIGHT-COLOR: #3d5054; SCROLLBAR-ARROW-COLOR: #ffd6da;SCROLLBAR-DARKSHADOW-COLOR: #85989c;
+    SCROLLBAR-FACE-COLOR: #889b9f;  SCROLLBAR-HIGHLIGHT-COLOR: #c3d6da;
+    OVERFLOW: auto;
+}
+#join-activity{
+    width: 960px;
+    height: 450px;
+    position: absolute;
+    left: 0px;
+    top: 38px;
+}
+#join-activity section{
+    width: 960px;
+    height:300px;
+    overflow-y: yes;
+    SCROLLBAR-SHADOW-COLOR: #3d5054; SCROLLBAR-3DLIGHT-COLOR: #3d5054; SCROLLBAR-ARROW-COLOR: #ffd6da;SCROLLBAR-DARKSHADOW-COLOR: #85989c;
+    SCROLLBAR-FACE-COLOR: #889b9f;  SCROLLBAR-HIGHLIGHT-COLOR: #c3d6da;
+    OVERFLOW: auto;
+}
+
+#manage-activity{
+    width: 960px;
+    height: 300px;
+    position: absolute;
+    left: 0px;
+    top: 38px;
+}
+#manage-activity section{
+    width: 960px;
+    height: 300px;
+    overflow-y: yes;
+    SCROLLBAR-SHADOW-COLOR: #3d5054; SCROLLBAR-3DLIGHT-COLOR: #3d5054; SCROLLBAR-ARROW-COLOR: #ffd6da;SCROLLBAR-DARKSHADOW-COLOR: #85989c;
+    SCROLLBAR-FACE-COLOR: #889b9f;  SCROLLBAR-HIGHLIGHT-COLOR: #c3d6da;
+    OVERFLOW: auto;
+}

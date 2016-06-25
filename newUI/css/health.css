@@ -153,3 +153,23 @@
     width: 100px;
     height: 30px;
 }
+
+#sleep-analysis{
+    width:960px;
+    height: 500px;
+    background:url("../images/sleep.jpg") no-repeat;
+    background-size: 960px 500px;
+    position: absolute;
+    left: 0px;
+    top: 36px;
+}
+
+#device{
+    width: 960px;
+    height: 500px;
+    background:url("../images/shouhuan.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0px;
+    top: 36px;
+}
