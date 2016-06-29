@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="223f7513-a1e1-4276-8d55-d69f4d03897e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newUI/images/flush.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newUI/css/activity.css" afterPath="$PROJECT_DIR$/newUI/css/activity.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newUI/activity/activityContent.html" afterPath="$PROJECT_DIR$/newUI/activity/activityContent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newUI/js/cookie.js" afterPath="$PROJECT_DIR$/newUI/js/cookie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newUI/css/health.css" afterPath="$PROJECT_DIR$/newUI/css/health.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newUI/health/healthContent.html" afterPath="$PROJECT_DIR$/newUI/health/healthContent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newUI/index.html" afterPath="$PROJECT_DIR$/newUI/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newUI/css/questionDetail.css" afterPath="$PROJECT_DIR$/newUI/css/questionDetail.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newUI/advice/questionDetail.html" afterPath="$PROJECT_DIR$/newUI/advice/questionDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newUI/css/setting.css" afterPath="$PROJECT_DIR$/newUI/css/setting.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newUI/setting/settingContent.html" afterPath="$PROJECT_DIR$/newUI/setting/settingContent.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="项目.iws" />
@@ -495,7 +484,13 @@
       <option name="project" value="LOCAL" />
       <updated>1467167556694</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="呵呵哒">
+      <created>1467186530428</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1467186530428</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
