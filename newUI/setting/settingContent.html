@@ -92,11 +92,69 @@
                 </div>
             </form>
         </div>
-        <div style="display: none">
-            安全管理
+        <div id="security" style="display: none">
+            <form>
+                <table>
+                    <tr>
+                        <td>账户邮箱</td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">密码修改</td>
+                    </tr>
+                    <tr>
+                        <td>原密码</td>
+                        <td>
+                            <input type="password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>新的密码</td>
+                        <td>
+                            <input type="password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>重复密码</td>
+                        <td>
+                            <input type="password">
+                        </td>
+                    </tr>
+                </table>
+                <input type="button" value="保存修改">
+            </form>
         </div>
-        <div style="display: none">
-            关注列表
+        <div id="focus" style="display: none">
+            <div>
+                <img src="../images/type1.png">
+                <p>王一琦</p>
+            </div>
+            <div>
+                <img src="../images/type1.png">
+                <p>王一琦</p>
+            </div>
+            <div>
+                <img src="../images/type1.png">
+                <p>王一琦</p>
+            </div>
+            <div>
+                <img src="../images/type1.png">
+                <p>王一琦</p>
+            </div>
+            <div>
+                <img src="../images/type1.png">
+                <p>王一琦</p>
+            </div>
+            <div>
+                <img src="../images/type1.png">
+                <p>王一琦</p>
+            </div>
+            <div>
+                <img src="../images/type1.png">
+                <p>王一琦</p>
+            </div>
         </div>
     </div>
     <nav id="menu">
@@ -118,8 +176,12 @@
                     $(".uploadcontent").css("display","block");
                 } else if($(this).index() == 2){
                     $(".header p").html("安全管理");
+                    $("#security").css("display","block");
                 } else{
                     $(".header p").html("关注列表");
+                    $(".content div").hide();
+                    $("#focus").css("display","block");
+                    $("#focus div").css("display","block");
                 }
             });
         });

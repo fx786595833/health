@@ -69,25 +69,27 @@
             </form>
         </div>
         <div id="sleep-analysis" style="display: none">
-            <p>
-                您今天睡眠总时长为6小时32分钟54秒
-                <br>
-                您最近一周平均每天睡眠时间为5小时45分钟32秒
-            </p>
-            <p>您的睡眠有点差哦</p>
+            
+            <p id="sleep-result">您的睡眠有点差哦</p>
         </div>
         <div id="device" style="display: none">
-            <p>
+            <p id="select-device">
                 您当前所使用的设备为
                 <select>
                     <option>小米手环</option>
                     <option>华为手环</option>
                 </select>
             </p>
-            <p>
+            <p id="import-health-data">
                 您有新的数据需要导入哦~~~
                 <input type="button" value="导入">
             </p>
+            <div id="binding-device">
+                <p>您尚未绑定对应型号设备，现在绑定吧~~~~</p><br>
+                <form id="binding">
+                    <input id="binding-number" placeholder="请输入绑定序列号" type="text">
+                </form>
+            </div>
         </div>
     </div>
     <nav id="menu">

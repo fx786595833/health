@@ -5,10 +5,29 @@
     left: 0px;
     top: 40px;
 }
+#my-problem header td{
+    text-align: left;
+}
+#my-problem header table{
+    width: 600px;
+    height: 60px;
+    position: absolute;
+    left: 45px;
+    top: 10px;
+}
 #my-problem section{
     width: 960px;
     height: 300px;
+    position: absolute;
+    top: 70px;
     overflow-y: yes;
+    SCROLLBAR-SHADOW-COLOR: #3d5054; SCROLLBAR-3DLIGHT-COLOR: #3d5054; SCROLLBAR-ARROW-COLOR: #ffd6da;SCROLLBAR-DARKSHADOW-COLOR: #85989c;
+    SCROLLBAR-FACE-COLOR: #889b9f;  SCROLLBAR-HIGHLIGHT-COLOR: #c3d6da;
+    OVERFLOW: auto;
+}
+
+#adviceTable td{
+    width: 140px;overflow-y: yes;
     SCROLLBAR-SHADOW-COLOR: #3d5054; SCROLLBAR-3DLIGHT-COLOR: #3d5054; SCROLLBAR-ARROW-COLOR: #ffd6da;SCROLLBAR-DARKSHADOW-COLOR: #85989c;
     SCROLLBAR-FACE-COLOR: #889b9f;  SCROLLBAR-HIGHLIGHT-COLOR: #c3d6da;
     OVERFLOW: auto;
@@ -28,6 +47,19 @@
     position: absolute;
     left: 0px;
     top: 40px;
+    overflow-y: yes;
+    SCROLLBAR-SHADOW-COLOR: #3d5054; SCROLLBAR-3DLIGHT-COLOR: #3d5054; SCROLLBAR-ARROW-COLOR: #ffd6da;SCROLLBAR-DARKSHADOW-COLOR: #85989c;
+    SCROLLBAR-FACE-COLOR: #889b9f;  SCROLLBAR-HIGHLIGHT-COLOR: #c3d6da;
+    OVERFLOW: auto;
+}
+
+#new-problem td{
+    text-align: left;
+}
+
+#problem-title{
+    width: 300px;
+    height: 40px;
 }
 
 #problem-group section{

@@ -1,0 +1,52 @@
+#main{
+    width: 960px;
+    height: 450px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+header{
+    width: 960px;
+    height: 35px;
+    background-color: #01a5ca;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+#back{
+    text-align: center;
+    width: 50px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+    font-family: 华文楷体, 微软雅黑, 宋体;
+}
+#back:hover{
+    color: #c1c9d1;
+}
+#title{
+    width: 100px;
+    height: 35px;
+    font-family: 华文楷体, 微软雅黑, 宋体;
+    font-size: 20px;
+    position: absolute;
+    left: 450px;
+    top: -15px;
+}
+section{
+    width: 960px;
+    height: 400px;
+    overflow-y: yes;
+    overflow-x: hidden;
+    SCROLLBAR-SHADOW-COLOR: #3d5054; SCROLLBAR-3DLIGHT-COLOR: #3d5054; SCROLLBAR-ARROW-COLOR: #ffd6da;SCROLLBAR-DARKSHADOW-COLOR: #85989c;
+    SCROLLBAR-FACE-COLOR: #889b9f;  SCROLLBAR-HIGHLIGHT-COLOR: #c3d6da;
+}
+section p{
+    width: 960px;
+    font-family: 华文楷体, 微软雅黑, 宋体;
+    font-size: 20px;
+}
+section p input,textarea{
+    border: none;
+}

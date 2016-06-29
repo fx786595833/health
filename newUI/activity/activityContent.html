@@ -18,6 +18,9 @@
         $(function() {
             $('nav#menu').mmenu();
         });
+        function navigate(){
+            window.location.href="activityDetail.html";
+        }
     </script>
 </head>
 <body>
@@ -28,12 +31,12 @@
     </div>
     <div class="content">
         <div id="my-activity" style="display: block">
-            <header>
-                <p>我的活动列表</p>
+            <header id="my-activity-header">
+                <p id="activity-list-title">我的活动列表</p>
                 <form>
                     <table border="0px">
                         <tr>
-                            <td>按完结情况筛选</td>
+                            <td><strong>按完结情况筛选</strong></td>
                             <td>
                                 <input type="radio" name="condition" value="all">所有
                                 <input type="radio" name="condition" value="unfinished">未完结
@@ -41,7 +44,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>按活动类型筛选</td>
+                            <td><strong>按活动类型筛选</strong></td>
                             <td>
                                 <input type="checkbox" name="event-types" value="all">所有
                                 <input type="checkbox" name="event-types" value="running">跑步
@@ -51,10 +54,10 @@
                             </td>
                         </tr>
                     </table>
-                    <input type="button" value="Search" name="Search">
+                    <input id="searchBtn" type="button" value="Search" name="Search">
                 </form>
             </header>
-            <section>
+            <section id="my-activity-section">
                 <table>
                     <tr>
                         <th>活动编号</th>
@@ -65,7 +68,7 @@
                         <th>参与人数</th>
                         <th>活动状态</th>
                     </tr>
-                    <tr>
+                    <tr onclick="navigate()">
                         <td>00001</td>
                         <td>众志成城，万众一心</td>
                         <td><img src="../images/type1.png"></td>
@@ -117,11 +120,11 @@
             <form>
                 <table>
                     <tr>
-                        <td>活动标题</td>
-                        <td style="text-align: left"><input type="text" placeholder="e.g. NJU鼓楼校区夜跑"></td>
+                        <td><strong>活动标题</strong></td>
+                        <td style="text-align: left"><input id="activity-title" type="text" placeholder="e.g. NJU鼓楼校区夜跑"></td>
                     </tr>
                     <tr>
-                        <td>活动类型</td>
+                        <td><strong>活动类型</strong></td>
                         <td>
                             <input type="image" src="../images/type1.png">
                             <input type="image" src="../images/type2.png">
@@ -130,19 +133,19 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>活动简介</td>
+                        <td><strong>活动简介</strong></td>
                         <td style="text-align: left">
-                            <textarea id="activity-intro" rows="10" cols="70"></textarea>
+                            <textarea id="activity-intro" rows="10" cols="100" readonly="readonly"></textarea>
                         </td>
                     </tr>
                     <tr>
-                        <td>活动地点</td>
+                        <td><strong>活动地点</strong></td>
                         <td style="text-align: left">
-                            <input type="text">
+                            <input id="activity-place" type="text">
                         </td>
                     </tr>
                     <tr>
-                        <td>起止时间</td>
+                        <td><strong>起止时间</strong></td>
                         <td style="text-align: left">
                             <p><input type="text" id="datepicker1">-
                                 <select>
@@ -202,15 +205,6 @@
                             </p>
                         </td>
                     </tr>
-                    <tr>
-                        <td>参与方式</td>
-                        <td style="text-align: left">
-                            <p>
-                                <input type="radio" name="join-way" value="任何人">任何人
-                                <input type="radio" name="join-way" value="下战书">下战书
-                            </p>
-                        </td>
-                    </tr>
                 </table>
                 <p><input type="button" value="确认"><input type="button" value="取消"></p>
             </form>
@@ -220,7 +214,7 @@
                 <table>
                     <tr>
                         <td>按照类型筛选</td>
-                        <td>
+                        <td width="300px">
                             <p>
                                 <input type="checkbox" name="event-types" value="all">所有
                                 <input type="checkbox" name="event-types" value="running">跑步
@@ -232,7 +226,7 @@
                     </tr>
                     <tr>
                         <td>按照地点筛选</td>
-                        <td>
+                        <td width="300px">
                             <select>
                                 <option>南京大学炜华体育场</option>
                                 <option>南京大学苏浙运动场</option>
@@ -242,7 +236,7 @@
                         </td>
                     </tr>
                 </table>
-                <input type="button" value="Search">
+                <input type="button" value="Search" id="searchNewBtn">
             </form>
             <section>
                 <table id="activity-to-join">
@@ -253,6 +247,8 @@
                         <th>活动时间</th>
                         <th>活动地点</th>
                         <th>活动人数</th>
+                        <th>活动状态</th>
+                        <th>选择参加</th>
                         <th></th>
                     </tr>
                     <tr>
@@ -335,17 +331,17 @@
                         <tr>
                             <td>按照状态筛选</td>
                             <td>
-                                <input type="radio" value="all">所有
-                                <input type="radio" value="unfinished">未完结
-                                <input type="radio" value="finished">已完结
+                                <input type="radio" name="manage-activity-status" value="all">所有
+                                <input type="radio" name="manage-activity-status" value="unfinished">未完结
+                                <input type="radio" name="manage-activity-status" value="finished">已完结
                             </td>
                         </tr>
                         <tr>
                             <td>按照发布者筛选</td>
                             <td>
-                                <input type="radio" value="all">所有
-                                <input type="radio" value="me">我发布的
-                                <input type="radio" value="others">别人发布的
+                                <input type="radio" name="manage-activity-publisher" value="all">所有
+                                <input type="radio" name="manage-activity-publisher" value="me">我发布的
+                                <input type="radio" name="manage-activity-publisher" value="others">别人发布的
                             </td>
                         </tr>
                     </table>
@@ -361,7 +357,8 @@
                         <th>活动时间</th>
                         <th>活动地点</th>
                         <th>活动人数</th>
-                        <th></th>
+                        <th>活动状态</th>
+                        <th>活动管理</th>
                     </tr>
                     <tr>
                         <td>00001</td>

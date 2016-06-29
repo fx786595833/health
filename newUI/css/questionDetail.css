@@ -1,0 +1,108 @@
+#main{
+    width: 960px;
+    height: 450px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+header{
+    width: 960px;
+    height: 35px;
+    background-color: #01a5ca;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+#back{
+    text-align: center;
+    width: 50px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+    font-family: 华文楷体, 微软雅黑, 宋体;
+}
+#back:hover{
+    color: #c1c9d1;
+}
+#title{
+    width: 100px;
+    height: 35px;
+    font-family: 华文楷体, 微软雅黑, 宋体;
+    font-size: 20px;
+    position: absolute;
+    left: 450px;
+    top: -15px;
+}
+#asker_icon{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+#content{
+    width: 960px;
+    height: 410px;
+    overflow-y: yes;
+    overflow-x: hidden;
+    SCROLLBAR-SHADOW-COLOR: #3d5054; SCROLLBAR-3DLIGHT-COLOR: #3d5054; SCROLLBAR-ARROW-COLOR: #ffd6da;SCROLLBAR-DARKSHADOW-COLOR: #85989c;
+    SCROLLBAR-FACE-COLOR: #889b9f;  SCROLLBAR-HIGHLIGHT-COLOR: #c3d6da;
+    /*OVERFLOW: auto;*/
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+#content header{
+    background-color:#ffffff;
+}
+#asker{
+    width: 500px;
+    height: 30px;
+    position: absolute;
+    left: 80px;
+    top: 20px;
+}
+#titleFlag{
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+#questionTitle{
+    width: 700px;
+    height: 50px;
+    font-size: 30px;
+    position: absolute;
+    left: 190px;
+    top: 40px;
+}
+#descriptionFlag{
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    position: absolute;
+    left: 40px;
+    top: 80px;
+}
+#description{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    left: 60px;
+    top: 160px;
+    resize: none;
+    border: none;
+}
+#content header{
+    width: 100%;
+    height: 600px;
+    background-color: #7cbcd6;
+    border-bottom: double;
+}
+#content section{
+    width: 100%;
+    height: auto;
+}

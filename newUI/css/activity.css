@@ -12,7 +12,6 @@
     OVERFLOW: auto;
 }
 #activity_intro{
-
 }
 #my-activity{
     width: 960px;
@@ -60,4 +59,68 @@
     SCROLLBAR-SHADOW-COLOR: #3d5054; SCROLLBAR-3DLIGHT-COLOR: #3d5054; SCROLLBAR-ARROW-COLOR: #ffd6da;SCROLLBAR-DARKSHADOW-COLOR: #85989c;
     SCROLLBAR-FACE-COLOR: #889b9f;  SCROLLBAR-HIGHLIGHT-COLOR: #c3d6da;
     OVERFLOW: auto;
+}
+#activity-list-title{
+    font-family:  微软雅黑, 宋体;
+    font-size: large;
+    font-style: oblique;
+}
+#my-activity-header td{
+    text-align: left;
+}
+#my-activity-header form{
+    width: 500px;
+    height: 60px;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+}
+#searchBtn{
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 400px;
+    top: 20px;
+}
+#my-activity-section{
+    position: absolute;
+    left: 0px;
+    top: 120px;
+}
+#my-activity-section table tr td{
+    width: 130px;
+}
+#publish-activity td{
+    text-align: left;
+}
+#publish-activity td strong{
+    font-size: 20px;
+}
+#activity-title{
+    width: 500px;
+    height: 30px;
+}
+#activity-place{
+    width: 500px;
+    height: 30px;
+}
+#activity-to-join tr td{
+    width: 120px;
+}
+#searchnewactivity{
+    width: 100%;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+#searchnewactivity td{
+    text-align: left;
+}
+#searchNewBtn{
+    position: relative;
+    left: 20px;
+    top: -30px;
+}
+#manage-activity section table tr td{
+    width: 120px;
 }
