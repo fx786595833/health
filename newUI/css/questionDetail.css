@@ -99,10 +99,56 @@ header{
 #content header{
     width: 100%;
     height: 600px;
-    background-color: #7cbcd6;
-    border-bottom: double;
+    background-color: #01a5ca;
+    border-bottom: groove;
+    border-bottom-color: #3f3f3f;
 }
 #content section{
     width: 100%;
     height: auto;
+}
+.answer div{
+    width: 960px;
+    height: auto;
+    border-left: groove;
+    border-right: groove;
+    border-bottom: groove;
+    position: relative;
+    left: -40px;
+    top: -17px;
+    background-color: #01a5ca;
+}
+.answer div img{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+}
+.answer div p{
+    position: relative;
+    left: 80px;
+    top: -30px;
+}
+.answer div textarea{
+    border: none;
+    width: 880px;
+    height: auto;
+    position: relative;
+    left: 20px;
+    top: -20px;
+    border: none;
+}
+.answer div button{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    border: none;
+    background-color: #01a5ca;
+}
+.answer div button:hover{
+    color:#ffffff;
+}
+textarea{
+    background-color: #01a5ca;
 }

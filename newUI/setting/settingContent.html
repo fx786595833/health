@@ -27,12 +27,12 @@
         <p>个人设置</p>
     </div>
     <div class="content">
-        <div style="display: block">
+        <div id="basic-info" style="display: block">
             <form>
                 <table>
                     <tr>
                         <td>昵称</td>
-                        <input id="nickname" type="text">
+                        <td><input id="nickname" type="text"></td>
                     </tr>
                     <tr>
                         <td>性别</td>
@@ -67,16 +67,16 @@
                     <tr>
                         <td>兴趣</td>
                         <td>
-                            <input type="checkbox" name="interest">跑步
-                            <input type="checkbox" name="interest">登山
-                            <input type="checkbox" name="interest">游泳
-                            <input type="checkbox" name="interest">自行车
+                            <input type="checkbox" name="interest"><img src="../images/type1.png">
+                            <input type="checkbox" name="interest"><img src="../images/type2.png">
+                            <input type="checkbox" name="interest"><img src="../images/type3.png">
+                            <input type="checkbox" name="interest"><img src="../images/type4.png">
                         </td>
                     </tr>
                     <tr>
                         <td>运动宣言</td>
                         <td>
-                            <textarea></textarea>
+                            <textarea rows="5" cols="100"></textarea>
                         </td>
                     </tr>
                 </table>
@@ -162,7 +162,7 @@
             <li><a href="#">基本信息</a></li>
             <li><a href="#">头像设置</a></li>
             <li><a href="#">安全管理</a></li>
-            <li><a href="#">关注列表</a></li>
+            <!--<li><a href="#">关注列表</a></li>-->
         </ul>
     </nav>
     <script type="text/javascript">

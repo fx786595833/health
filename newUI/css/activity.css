@@ -121,6 +121,17 @@
     left: 20px;
     top: -30px;
 }
+#manage-activity section{
+    position: absolute;
+    top: 100px;
+}
 #manage-activity section table tr td{
     width: 120px;
+}
+#manage-activity header table{
+    position: absolute;
+    left: 30px;
+}
+#manage-activity header td{
+    text-align: left;
 }
