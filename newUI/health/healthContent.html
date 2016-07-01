@@ -37,36 +37,42 @@
             </div>
         </div>
         <div id="body-condition" style="display: none">
-            <form id="body-condition-list">
-                <table border="0px">
-                    <tr>
-                        <td>身高</td>
-                        <td><input id="height" readonly="readonly" placeholder="e.g. 180">cm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>体重</td>
-                        <td><input id="weight" readonly="readonly" placeholder="e.g. 60">kg&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>心率</td>
-                        <td><input id="heart-rate" readonly="readonly" placeholder="e.g. 100">次/min&nbsp;&nbsp;</td>
-                    </tr>
-                    <tr><td colspan="2">血压</td></tr>
-                    <tr>
-                        <td>高压</td>
-                        <td><input id="high-pressure" readonly="readonly" placeholder="血压最高值">mmHg&nbsp;&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>低压</td>
-                        <td><input id="low-pressure" readonly="readonly" placeholder="血压最低值">mmHg&nbsp;&nbsp;</td>
-                    </tr>
-                </table>
-                <p>
-                    <input type="button" id="ensure-save" onclick="" style="display: none" value="保存"></form>
-                    <input type="reset" id="reset-mod" onclick="" style="display: none" value="撤销"></form>
-                </p>
-                <input type="button" id="mod-btn" onclick="" style="display: block" value="修改">
-            </form>
+            <input id="body-height" type="text" readonly="readonly" value="180">
+            <input id="body-weight" type="text" readonly="readonly" value="59">
+            <input id="body-bmi" type="text" readonly="readonly" value="18.21">
+            <input id="body-heart-rate" type="text" readonly="readonly" value="100">
+            <input id="body-high-pressure" type="text" readonly="readonly" value="130">
+            <input id="body-low-pressure" type="text" readonly="readonly" value="85">
+            <!--<form id="body-condition-list">-->
+                <!--<table border="0px">-->
+                    <!--<tr>-->
+                        <!--<td>身高</td>-->
+                        <!--<td><input id="height" readonly="readonly" placeholder="e.g. 180">cm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td>体重</td>-->
+                        <!--<td><input id="weight" readonly="readonly" placeholder="e.g. 60">kg&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td>心率</td>-->
+                        <!--<td><input id="heart-rate" readonly="readonly" placeholder="e.g. 100">次/min&nbsp;&nbsp;</td>-->
+                    <!--</tr>-->
+                    <!--<tr><td colspan="2">血压</td></tr>-->
+                    <!--<tr>-->
+                        <!--<td>高压</td>-->
+                        <!--<td><input id="high-pressure" readonly="readonly" placeholder="血压最高值">mmHg&nbsp;&nbsp;</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td>低压</td>-->
+                        <!--<td><input id="low-pressure" readonly="readonly" placeholder="血压最低值">mmHg&nbsp;&nbsp;</td>-->
+                    <!--</tr>-->
+                <!--</table>-->
+                <!--<p>-->
+                    <!--<input type="button" id="ensure-save" onclick="" style="display: none" value="保存"></form>-->
+                    <!--<input type="reset" id="reset-mod" onclick="" style="display: none" value="撤销"></form>-->
+                <!--</p>-->
+                <!--<input type="button" id="mod-btn" onclick="" style="display: block" value="修改">-->
+            <!--</form>-->
         </div>
         <div id="sleep-analysis" style="display: none">
             <form id="sleep-condition">
@@ -90,14 +96,21 @@
             </p>
             <p id="import-health-data">
                 您有新的数据需要导入哦~~~
-                <input type="button" value="导入">
+                <input id="btn-import" type="button" value="导入" onclick="importData()">
             </p>
-            <div id="binding-device">
+            <div id="binding-device" style="display: none">
                 <p>您尚未绑定对应型号设备，现在绑定吧~~~~</p><br>
                 <form id="binding">
                     <input id="binding-number" placeholder="请输入绑定序列号" type="text">
                 </form>
             </div>
+            <script>
+                function importData(){
+                    $("#btn-import").css("border","none");
+                    $("#btn-import").attr("value","导入成功");
+                    $("#btn-import").css("color","red");
+                }
+            </script>
         </div>
     </div>
     <nav id="menu">

@@ -15,3 +15,9 @@
 #basic-info td{
     text-align: left;
 }
+#nickname{
+    border: none;
+    font-family: 华文楷体, 微软雅黑, 宋体;
+    font-size: 20px;
+    color: #01a5ca;
+}

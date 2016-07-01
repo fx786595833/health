@@ -31,18 +31,18 @@
             <form>
                 <table>
                     <tr>
-                        <td>昵称</td>
-                        <td><input id="nickname" type="text"></td>
+                        <td><strong>昵称</strong></td>
+                        <td><input id="nickname" type="text" value="张怡"></td>
                     </tr>
                     <tr>
-                        <td>性别</td>
+                        <td><strong>性别</strong></td>
                         <td>
-                            <input type="radio" name="gender">男
+                            <input type="radio" name="gender" checked="true">男
                             <input type="radio" name="gender">女
                         </td>
                     </tr>
                     <tr>
-                        <td>生日</td>
+                        <td><strong>生日</strong></td>
                         <td>
                             <input type="text" id="datepicker">
                         </td>
@@ -51,7 +51,7 @@
                         $("#datepicker").datepicker();
                     </script>
                     <tr>
-                        <td>所在地</td>
+                        <td><strong>所在地</strong></td>
                         <td>
                             <select>
                                 <option>北京</option>
@@ -65,7 +65,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>兴趣</td>
+                        <td><strong>兴趣</strong></td>
                         <td>
                             <input type="checkbox" name="interest"><img src="../images/type1.png">
                             <input type="checkbox" name="interest"><img src="../images/type2.png">
@@ -74,17 +74,17 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>运动宣言</td>
+                        <td><strong>运动宣言</strong></td>
                         <td>
                             <textarea rows="5" cols="100"></textarea>
                         </td>
                     </tr>
                 </table>
-                <input type="button" value="保存">
+                <input type="button" value="保存" onclick="alert('保存成功')">
             </form>
         </div>
         <div style="display: none">
-            <form action="http://localhost/project/loginPHP/headManager.php" method="post" enctype="multipart/form-data" id="fileupload">
+            <form id="fileupload">
                 <div class="uploadcontent" style="display: block">
                     <img src="" alt="">
                     <input name="file" type="file" accept="image/gif, image/jpeg">

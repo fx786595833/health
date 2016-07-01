@@ -5,7 +5,7 @@
     $psw = $_POST["psw"];
     $nickname = $_POST["nickname"];
     $configpsw = $_POST["configpsw"];
-    $gender = $_POST["gender"];
+    $gender = "male";
 
     $sql1 ="select count(*) as n from user where id = $name";
     $sql2 =<<<EOF

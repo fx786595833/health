@@ -125,8 +125,8 @@
 #body-condition{
     width: 960px;
     height: 500px;
-    background:url("../images/1.jpg") no-repeat;
-    background-size: 960px 500px;
+    background:url("../images/身体状况.png") no-repeat;
+    background-size: 960px 450px;
     position: absolute;
     left: 0px;
     top: 38px;
@@ -241,11 +241,54 @@
     right: 150px;
     top: 100px;
 }
-
+#btn-import{
+    font-size: 25px;
+    font-family: 华文楷体, 微软雅黑, 宋体;
+}
 #import-health-data{
     font-family: 华文楷体, 微软雅黑, 宋体;
     font-size: 20px;
     position: absolute;
     top: 150px;
     right: 160px;
+}
+
+#body-height,#body-weight,#body-heart-rate,
+#body-bmi,#body-high-pressure,#body-low-pressure{
+    width: 50px;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    font-weight: bolder;
+}
+#body-height{
+    position: absolute;
+    left: 505px;
+    top: 257px;
+}
+#body-weight{
+    position: absolute;
+    left: 650px;
+    top: 400px;
+}
+#body-bmi{
+    position: absolute;
+    left: 850px;
+    top: 340px;
+}
+#body-heart-rate{
+    position: absolute;
+    left: 850px;
+    top: 240px;
+}
+#body-high-pressure{
+    position: absolute;
+    left: 850px;
+    top: 275px;
+}
+#body-low-pressure{
+    position: absolute;
+    left: 850px;
+    top: 306px;
 }
